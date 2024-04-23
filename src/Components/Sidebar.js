@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import { render } from "react-dom";
 import OperatoriSiExpresii from "../Elements/OperatoriSiExpresii";
+import TipuriDeDate from "../Elements/TipuriDeDate";
 
 function Sidebar() {
   return (
@@ -27,7 +28,7 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(<Card></Card>, document.getElementById("card"));
+                render(<TipuriDeDate></TipuriDeDate>, document.getElementById("card"));
               }}
             >
               Tipuri de date

@@ -10,3 +10,7 @@
     margin-left: auto;
     border-radius: 6px;
 }
+
+#description-paragraph{
+    white-space: pre-wrap;
+}
