@@ -3,19 +3,22 @@ import "./App.css";
 import "./Style/Title.css"
 import "./Style/Sidebar.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Sidebar from './Components/Sidebar';
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="App text-bg-light">
       <header>
         <div className="Title">
-          <h1>Site Materie Admitere UBB</h1>
+          <p class="fw-semibold fs-1">Materie admitere UBB</p>
         </div>
       </header>
-      <body>
+      <body className="text-bg-light">
 
-      <div className="toggle-btn" onClick={toggleSidebar}>
+      <Sidebar></Sidebar>
+
+      {/* <div className="toggle-btn" onClick={toggleSidebar}>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -23,7 +26,10 @@ function App() {
 
             <div className="sidebar" id="sidebar">
 
-            <button type="button" class="btn-close" data-bs-theme="white" aria-label="Close"></button>
+            <div data-bs-theme="dark"> 
+                <button type="button" class="btn-close" aria-label="Close">
+            </button></div>
+            
 
                 <h3>Clasa a IX-a</h3>
                 <ul>
@@ -41,14 +47,12 @@ function App() {
                 <ul>
                   <li>test</li>
                 </ul>
-            </div>
+            </div> */}
       </body>
     </div>
   );
 }
 
-const toggleSidebar = () => {
-  document.getElementById("sidebar").style.transform = "translate(0px)"
-}
+
 
 export default App;
