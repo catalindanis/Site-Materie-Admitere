@@ -79,6 +79,7 @@ function Sidebar() {
 
 const toggleSidebar = () => {
   document.getElementById("sidebar").style.transform = "translate(0px)";
+  document.getElementById("suggestionMessage").style.visibility = "hidden";
 };
 
 const closeSidebar = () => {
