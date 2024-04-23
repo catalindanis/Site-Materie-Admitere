@@ -45,16 +45,7 @@ function Sidebar() {
               Operatori si expresii
             </a>
           </p>
-          <p>
-            <a
-              onClick={() => {
-                closeSidebar();
-                render(<ProprietatiNumere></ProprietatiNumere>, document.getElementById("card"));
-              }}
-            >
-              Proprietati numere
-            </a>
-          </p>
+          
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a X-a</h4>
@@ -69,9 +60,16 @@ function Sidebar() {
           </p>
         </div>
         <div className="row fw-medium">
-          <h4 className="fw-light">Completari</h4>
+          <h4 className="fw-light">Diverse</h4>
           <p>
-            <a>test</a>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(<ProprietatiNumere></ProprietatiNumere>, document.getElementById("card"));
+              }}
+            >
+              Proprietati numere
+            </a>
           </p>
         </div>
       </div>
