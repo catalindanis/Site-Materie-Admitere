@@ -12,6 +12,7 @@ function App() {
       <header>
         <div className="Title">
           <p>Materie admitere UBB</p>
+          <h6>Deschide meniul din stanga pentru a accesa materia</h6>
         </div>
       </header>
       <body className="text-bg-light">
