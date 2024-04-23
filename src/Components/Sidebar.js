@@ -3,6 +3,7 @@ import Card from "./Card";
 import { render } from "react-dom";
 import OperatoriSiExpresii from "../Elements/OperatoriSiExpresii";
 import TipuriDeDate from "../Elements/TipuriDeDate";
+import ProprietatiNumere from "../Elements/ProprietatiNumere";
 
 function Sidebar() {
   return (
@@ -42,6 +43,16 @@ function Sidebar() {
               }}
             >
               Operatori si expresii
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(<ProprietatiNumere></ProprietatiNumere>, document.getElementById("card"));
+              }}
+            >
+              Proprietati numere
             </a>
           </p>
         </div>
