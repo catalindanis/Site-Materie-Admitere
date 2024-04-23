@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { render } from "react-dom";
+import OperatoriSiExpresii from "../Elements/OperatoriSiExpresii";
 
 function Sidebar() {
   return (
@@ -26,16 +27,21 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(
-                <Card></Card>
-                , document.getElementById("card"));
+                render(<Card></Card>, document.getElementById("card"));
               }}
             >
               Tipuri de date
             </a>
           </p>
           <p>
-            <a>Operatori</a>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(<OperatoriSiExpresii></OperatoriSiExpresii>, document.getElementById("card"));
+              }}
+            >
+              Operatori si expresii
+            </a>
           </p>
         </div>
         <div className="row fw-medium">
