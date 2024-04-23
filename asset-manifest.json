@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Site-Materie-Admitere/static/css/main.36f40c31.css",
+    "main.js": "/Site-Materie-Admitere/static/js/main.ef6d7301.js",
+    "static/js/453.366efd4d.chunk.js": "/Site-Materie-Admitere/static/js/453.366efd4d.chunk.js",
+    "static/media/Screenshot_1.jpg": "/Site-Materie-Admitere/static/media/Screenshot_1.17fd0d8ee297085692f6.jpg",
+    "index.html": "/Site-Materie-Admitere/index.html",
+    "main.36f40c31.css.map": "/Site-Materie-Admitere/static/css/main.36f40c31.css.map",
+    "main.ef6d7301.js.map": "/Site-Materie-Admitere/static/js/main.ef6d7301.js.map",
+    "453.366efd4d.chunk.js.map": "/Site-Materie-Admitere/static/js/453.366efd4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36f40c31.css",
+    "static/js/main.ef6d7301.js"
+  ]
+}
