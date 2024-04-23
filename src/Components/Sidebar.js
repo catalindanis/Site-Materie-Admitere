@@ -1,4 +1,6 @@
 import React from "react";
+import Card from "./Card";
+import { render } from "react-dom";
 
 function Sidebar() {
   return (
@@ -21,7 +23,19 @@ function Sidebar() {
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a IX-a</h4>
           <p>
-            <a>test</a>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                <Card></Card>
+                , document.getElementById("card"));
+              }}
+            >
+              Tipuri de date
+            </a>
+          </p>
+          <p>
+            <a>Operatori</a>
           </p>
         </div>
         <div className="row fw-medium">
