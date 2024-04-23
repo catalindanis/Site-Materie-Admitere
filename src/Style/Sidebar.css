@@ -1,3 +1,19 @@
+.toggle-btn {
+    position: absolute;
+    margin-top: 0;
+    left: 2vw;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .toggle-btn span {
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+  }
+
 .sidebar {
     width: 250px;
     height: 100vh;
@@ -5,18 +21,22 @@
     color: white;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
+    transform: translateX(-250px);
   }
   
   .sidebar h2 {
     margin-bottom: 20px;
   }
-  
   .sidebar ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 10px;
   }
   
   .sidebar li {
-    margin-bottom: 10px;
     cursor: pointer;
+  }
+
+  .btn-close{
+    position: absolute;
+    right: 15px;
   }

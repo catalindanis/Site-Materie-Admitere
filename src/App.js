@@ -2,14 +2,9 @@ import React, { useState } from 'react';
 import "./App.css";
 import "./Style/Title.css"
 import "./Style/Sidebar.css"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
-
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-  };
 
   return (
     <div className="App">
@@ -19,17 +14,41 @@ function App() {
         </div>
       </header>
       <body>
-            <div className="sidebar">
-              <h2>Meniu</h2>
+
+      <div className="toggle-btn" onClick={toggleSidebar}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div className="sidebar" id="sidebar">
+
+            <button type="button" class="btn-close" data-bs-theme="white" aria-label="Close"></button>
+
+                <h3>Clasa a IX-a</h3>
                 <ul>
-                  <li>Clasa a IX-a</li>
-                  <li>Clasa a X-a</li>
-                  <li>Clasa a XI-a</li>
+                  <li>test</li>
+                </ul>
+                <h3>Clasa a X-a</h3>
+                <ul>
+                  <li>test</li>
+                </ul>
+                <h3>Clasa a XI-a</h3>
+                <ul>
+                  <li>test</li>
+                </ul>
+                <h3>Diverse</h3>
+                <ul>
+                  <li>test</li>
                 </ul>
             </div>
       </body>
     </div>
   );
+}
+
+const toggleSidebar = () => {
+  document.getElementById("sidebar").style.transform = "translate(0px)"
 }
 
 export default App;
