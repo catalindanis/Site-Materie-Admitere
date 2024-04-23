@@ -20,6 +20,7 @@ function App() {
         <div id="card"></div>
       <Sidebar></Sidebar>
       </body>
+      <div></div>
     </div>
   );
 }

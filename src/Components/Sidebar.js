@@ -4,6 +4,7 @@ import { render } from "react-dom";
 import OperatoriSiExpresii from "../Elements/OperatoriSiExpresii";
 import TipuriDeDate from "../Elements/TipuriDeDate";
 import ProprietatiNumere from "../Elements/ProprietatiNumere";
+import Divizibilitate from "../Elements/Divizibilitate";
 
 function Sidebar() {
   return (
@@ -46,6 +47,17 @@ function Sidebar() {
             </a>
           </p>
           
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(<Divizibilitate></Divizibilitate>, document.getElementById("card"));
+              }}
+            >
+              Divizibilitate
+            </a>
+          </p>
+
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a X-a</h4>

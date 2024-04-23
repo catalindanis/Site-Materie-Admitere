@@ -14,3 +14,7 @@
 #description-paragraph{
     white-space: pre-wrap;
 }
+
+#image{
+    width: 100%;
+}
