@@ -11,7 +11,7 @@ function App() {
     <div className="App text-bg-light">
       <header>
         <div className="Title">
-          <p class="fw-semibold fs-1">Materie admitere UBB</p>
+          <p>Materie admitere UBB</p>
         </div>
       </header>
       <body className="text-bg-light">

@@ -4,9 +4,12 @@
     margin: 0;
     left: 2vw;
     cursor: pointer;
-    z-index: 1;
   }
   
+.toggle-btn:hover span{
+    background-color: rgb(54, 54, 54);
+}
+
   .toggle-btn span {
     display: block;
     width: 40px;
