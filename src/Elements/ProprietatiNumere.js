@@ -6,7 +6,7 @@ import Subtitle from "../Components/Subtitle";
 function ProprietatiNumere() {
   return (
     <div className="Card">
-      <Title text="Proprietati numere" />
+      <Title text="Proprietati numere testgithub" />
       
     </div>
   );
