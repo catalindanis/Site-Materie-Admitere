@@ -6,6 +6,7 @@ import TipuriDeDate from "../Elements/TipuriDeDate";
 import ProprietatiNumere from "../Elements/ProprietatiNumere";
 import Divizibilitate from "../Elements/Divizibilitate";
 import BazeDeNumeratie from "../Elements/BazeDeNumeratie"
+import StergeriSiInserari from "../Elements/StergeriInserariVectori";
 
 function Sidebar() {
   return (
@@ -67,6 +68,17 @@ function Sidebar() {
               }}
             >
               Baze de numerație
+            </a>
+          </p>
+
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(<StergeriSiInserari></StergeriSiInserari>, document.getElementById("card"));
+              }}
+            >
+              Vectori - ștergeri și inserări
             </a>
           </p>
 
