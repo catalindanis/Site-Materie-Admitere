@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../Components/Title";
 import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
-import prioritateOperatori from "../Resources/Images/prioritate operatori.jpg"
+import prioritateOperatori from "../Resources/Images/operatori_si_expresii/prioritate operatori.jpg"
 
 function OperatoriSiExpresii() {
   return (

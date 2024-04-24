@@ -25,6 +25,7 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
 -un număr este pătrat perfect => la descompunerea în factori primi, toți exponenții o să fie pari
 -orice număr poate fi descompus în produs de factori primi (pt fiecare număr descompunerea e unică)
 -un număr poate fi scris ca sumă de puteri distincte ale lui k => numărul se scrie doar cu cifre de 0 și 1 în baza k
+-orice număr poate fi scris ca sumă de puteri distincte ale lui 2 (din reprezentarea în baza 2 a numerelor)
 -un număr în baza k se divide cu k-1 <=> suma cifrelor numărului este divizibilă cu k-1 (generalizarea divizibilității cu 9 din baza 10)
 -un număr în baza k se divide cu k+1 <=> diferența dintre suma cifrelor de pe poziții pare și suma cifrelor de pe poziții impare este divizibilă cu k+1
 -cmmdc(a, b) * cmmmc(a, b) = a*b
