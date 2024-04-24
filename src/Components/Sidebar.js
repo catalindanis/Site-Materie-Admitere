@@ -5,6 +5,7 @@ import OperatoriSiExpresii from "../Elements/OperatoriSiExpresii";
 import TipuriDeDate from "../Elements/TipuriDeDate";
 import ProprietatiNumere from "../Elements/ProprietatiNumere";
 import Divizibilitate from "../Elements/Divizibilitate";
+import BazeDeNumeratie from "../Elements/BazeDeNumeratie"
 
 function Sidebar() {
   return (
@@ -58,6 +59,17 @@ function Sidebar() {
             </a>
           </p>
 
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(<BazeDeNumeratie></BazeDeNumeratie>, document.getElementById("card"));
+              }}
+            >
+              Baze de numerație
+            </a>
+          </p>
+
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a X-a</h4>
@@ -80,7 +92,7 @@ function Sidebar() {
                 render(<ProprietatiNumere></ProprietatiNumere>, document.getElementById("card"));
               }}
             >
-              Proprietati numere
+              Proprietăți numere
             </a>
           </p>
         </div>
