@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Site-Materie-Admitere/static/css/main.593158e9.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.e5cde8be.js",
+    "main.css": "/Site-Materie-Admitere/static/css/main.db4a30cd.css",
+    "main.js": "/Site-Materie-Admitere/static/js/main.a8c0f7f2.js",
     "static/js/453.366efd4d.chunk.js": "/Site-Materie-Admitere/static/js/453.366efd4d.chunk.js",
     "static/media/nr_baza_10.jpg": "/Site-Materie-Admitere/static/media/nr_baza_10.b5172667a34bddbcc9af.jpg",
     "static/media/legendre_neprim_explicatie.jpg": "/Site-Materie-Admitere/static/media/legendre_neprim_explicatie.6b74433aec695429f16b.jpg",
@@ -32,13 +32,15 @@
     "static/media/cmmdc_impartiri_rec.jpg": "/Site-Materie-Admitere/static/media/cmmdc_impartiri_rec.257e826be418ad836822.jpg",
     "static/media/cmmmc_formula.jpg": "/Site-Materie-Admitere/static/media/cmmmc_formula.d7502e0ff576f3a616d3.jpg",
     "static/media/legendre.jpg": "/Site-Materie-Admitere/static/media/legendre.3b5d1813117ee09cbccc.jpg",
+    "static/media/inserare.jpg": "/Site-Materie-Admitere/static/media/inserare.6526eb76b84336abf2df.jpg",
+    "static/media/stergere.jpg": "/Site-Materie-Admitere/static/media/stergere.e599bd315db64de1d55e.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
-    "main.593158e9.css.map": "/Site-Materie-Admitere/static/css/main.593158e9.css.map",
-    "main.e5cde8be.js.map": "/Site-Materie-Admitere/static/js/main.e5cde8be.js.map",
+    "main.db4a30cd.css.map": "/Site-Materie-Admitere/static/css/main.db4a30cd.css.map",
+    "main.a8c0f7f2.js.map": "/Site-Materie-Admitere/static/js/main.a8c0f7f2.js.map",
     "453.366efd4d.chunk.js.map": "/Site-Materie-Admitere/static/js/453.366efd4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.593158e9.css",
-    "static/js/main.e5cde8be.js"
+    "static/css/main.db4a30cd.css",
+    "static/js/main.a8c0f7f2.js"
   ]
 }
