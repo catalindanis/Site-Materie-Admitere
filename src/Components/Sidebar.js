@@ -5,8 +5,9 @@ import OperatoriSiExpresii from "../Elements/OperatoriSiExpresii";
 import TipuriDeDate from "../Elements/TipuriDeDate";
 import ProprietatiNumere from "../Elements/ProprietatiNumere";
 import Divizibilitate from "../Elements/Divizibilitate";
-import BazeDeNumeratie from "../Elements/BazeDeNumeratie"
+import BazeDeNumeratie from "../Elements/BazeDeNumeratie";
 import StergeriSiInserari from "../Elements/StergeriInserariVectori";
+import SortariVectori from "../Elements/SortariVectori";
 
 function Sidebar() {
   return (
@@ -32,7 +33,10 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(<TipuriDeDate></TipuriDeDate>, document.getElementById("card"));
+                render(
+                  <TipuriDeDate></TipuriDeDate>,
+                  document.getElementById("card")
+                );
               }}
             >
               Tipuri de date
@@ -42,18 +46,24 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(<OperatoriSiExpresii></OperatoriSiExpresii>, document.getElementById("card"));
+                render(
+                  <OperatoriSiExpresii></OperatoriSiExpresii>,
+                  document.getElementById("card")
+                );
               }}
             >
               Operatori si expresii
             </a>
           </p>
-          
+
           <p>
             <a
               onClick={() => {
                 closeSidebar();
-                render(<Divizibilitate></Divizibilitate>, document.getElementById("card"));
+                render(
+                  <Divizibilitate></Divizibilitate>,
+                  document.getElementById("card")
+                );
               }}
             >
               Divizibilitate
@@ -64,7 +74,10 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(<BazeDeNumeratie></BazeDeNumeratie>, document.getElementById("card"));
+                render(
+                  <BazeDeNumeratie></BazeDeNumeratie>,
+                  document.getElementById("card")
+                );
               }}
             >
               Baze de numerație
@@ -75,13 +88,29 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(<StergeriSiInserari></StergeriSiInserari>, document.getElementById("card"));
+                render(
+                  <StergeriSiInserari></StergeriSiInserari>,
+                  document.getElementById("card")
+                );
               }}
             >
               Vectori - ștergeri și inserări
             </a>
           </p>
 
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <SortariVectori></SortariVectori>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Vectori - sortări
+            </a>
+          </p>
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a X-a</h4>
@@ -101,7 +130,10 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(<ProprietatiNumere></ProprietatiNumere>, document.getElementById("card"));
+                render(
+                  <ProprietatiNumere></ProprietatiNumere>,
+                  document.getElementById("card")
+                );
               }}
             >
               Proprietăți numere
