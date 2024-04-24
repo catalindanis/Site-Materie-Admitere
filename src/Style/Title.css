@@ -12,3 +12,12 @@
 .Title h6{
     padding-bottom: 2px;
 }
+
+@media screen and (max-width: 600px) {
+    .Title{
+        top: 25px;
+    }
+    .Title p{
+        font-size: 35px;
+    }
+  }
