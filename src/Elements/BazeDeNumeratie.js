@@ -13,9 +13,9 @@ function TipuriDeDate() {
 -un număr în baza k se divide cu k-1 <=> suma cifrelor numărului este divizibilă cu k-1 (generalizarea divizibilității cu 9 din baza 10)
 -un număr în baza k se divide cu k+1 <=> diferența dintre suma cifrelor de pe poziții pare și suma cifrelor de pe poziții impare este divizibilă cu k+1"/>
     <Subtitle text="Transformare din baza b in baza 10 :"></Subtitle>
-    <img src={img1}></img>
+    <img src={img1} className = "mb-2" id="image50"></img>
     <Subtitle text="Transformare din baza 10 in baza 2 :"></Subtitle>
-    <img src={img2}></img>
+    <img src={img2} className = "mb-2" id="image25"></img>
     </div>
   );
 }

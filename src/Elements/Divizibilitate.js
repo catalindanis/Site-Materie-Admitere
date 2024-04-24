@@ -43,31 +43,31 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
 -cmmdc(a, b) * cmmmc(a, b) = a*b
       "/>
       <Subtitle text="Algoritmi implementati :"></Subtitle>
-      <img src={img1} className="mb-2" id="image"></img>
-      <img src={img2} className="mb-2" id="image"></img>
-      <img src={img3} className="mb-2" id="image"></img>
-      <img src={img4} className="mb-2" id="image"></img>
-      <img src={img5} className="mb-2" id="image"></img>
-      <img src={img6} className="mb-2" id="image"></img>
-      <img src={img7} className="mb-2" id="image"></img>
-      <img src={img8} className="mb-2" id="image"></img>
-      <img src={img9} className="mb-2" id="image"></img>
-      <img src={img10} className="mb-2" id="image"></img>
-      <img src={img11} className="mb-2" id="image"></img>
-      <img src={img12} className="mb-2" id="image"></img>
+      <img src={img1} className="mb-2" id="image100"></img>
+      <img src={img2} className="mb-2" id="image100"></img>
+      <img src={img3} className="mb-2" id="image100"></img>
+      <img src={img4} className="mb-2" id="image100"></img>
+      <img src={img5} className="mb-2" id="image100"></img>
+      <img src={img6} className="mb-2" id="image100"></img>
+      <img src={img7} className="mb-2" id="image100"></img>
+      <img src={img8} className="mb-2" id="image100"></img>
+      <img src={img9} className="mb-2" id="image100"></img>
+      <img src={img10} className="mb-2" id="image100"></img>
+      <img src={img11} className="mb-2" id="image100"></img>
+      <img src={img12} className="mb-2" id="image100"></img>
       <Description text="Numarul de divizori prin factorizare se calculeaza facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului"></Description>
-      <img src={img13} className="mb-2" id="image"></img>
+      <img src={img13} className="mb-2" id="image100"></img>
       <Description text="Numarul de divizori impari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2"></Description>
-      <img src={img14} className="mb-2" id="image"></img>
+      <img src={img14} className="mb-2" id="image100"></img>
       <Description text="Numarul de divizori pari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2 unde nu mai adunam acel +1"></Description>
-      <img src={img15} className="mb-2" id="image"></img>
-      <img src={img22} className="mb-2" id="image"></img>
-      <img src={img16} className="mb-2" id="image"></img>
-      <img src={img17} className="mb-2" id="image"></img>
-      <img src={img18} className="mb-2" id="image"></img>
-      <img src={img19} className="mb-2" id="image"></img>
-      <img src={img20} className="mb-2" id="image"></img>
-      <img src={img21} className="mb-2" id="image"></img>
+      <img src={img15} className="mb-2" id="image100"></img>
+      <img src={img22} className="mb-2" id="image100"></img>
+      <img src={img16} className="mb-2" id="image100"></img>
+      <img src={img17} className="mb-2" id="image100"></img>
+      <img src={img18} className="mb-2" id="image100"></img>
+      <img src={img19} className="mb-2" id="image100"></img>
+      <img src={img20} className="mb-2" id="image100"></img>
+      <img src={img21} className="mb-2" id="image100"></img>
       <Description text="Ciurul lui Eratostene => vector cu ajutorul căruia știm numerele prime până la n (cu 1 sunt numerele neprime, iar cu 0 numerele prime)
 Complexitate O(n*log(log(n)))"></Description>
     <h6 className="mt-4">Pozele cu explicatii au fost preluate de pe Pbinfo.ro</h6>
