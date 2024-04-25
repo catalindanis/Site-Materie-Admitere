@@ -22,7 +22,6 @@ import img17 from "../Resources/Images/divizibilitate/legendre_prim_explicatie.j
 import img18 from "../Resources/Images/divizibilitate/legendre.jpg"
 import img19 from "../Resources/Images/divizibilitate/legendre_neprim_explicatie.jpg"
 import img20 from "../Resources/Images/divizibilitate/legendre_neprim.jpg"
-import img21 from "../Resources/Images/divizibilitate/eratostene.jpg"
 import img22 from "../Resources/Images/divizibilitate/suma_div_factorizare_explicatie.jpg"
 
 function TipuriDeDate() {

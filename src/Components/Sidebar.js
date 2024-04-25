@@ -12,6 +12,7 @@ import CautareBinara from "../Elements/CautareBinara"
 import Interclasari from "../Elements/Interclasari"
 import Secvente from "../Elements/Secvente";
 import MatriciSumePartiale from "../Elements/MatriciSumePartiale";
+import VectoriCaracterisitiSiFrecventa from "../Elements/VectoriCaracteristiciSIFrecventa";
 
 function Sidebar() {
   return (
@@ -155,6 +156,20 @@ function Sidebar() {
               }}
             >
               Vectori - secvențe
+            </a>
+          </p>
+
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <VectoriCaracterisitiSiFrecventa></VectoriCaracterisitiSiFrecventa>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Vectori - caracteristici și de frecvență
             </a>
           </p>
 
