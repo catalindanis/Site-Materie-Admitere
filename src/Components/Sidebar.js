@@ -8,6 +8,7 @@ import Divizibilitate from "../Elements/Divizibilitate";
 import BazeDeNumeratie from "../Elements/BazeDeNumeratie";
 import StergeriSiInserari from "../Elements/StergeriInserariVectori";
 import SortariVectori from "../Elements/SortariVectori";
+import CautareBinara from "../Elements/CautareBinara"
 
 function Sidebar() {
   return (
@@ -111,6 +112,21 @@ function Sidebar() {
               Vectori - sortări
             </a>
           </p>
+
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <CautareBinara></CautareBinara>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Vectori - căutare binară
+            </a>
+          </p>
+
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a X-a</h4>
