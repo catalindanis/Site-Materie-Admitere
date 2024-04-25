@@ -67,9 +67,6 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
       <img src={img18} className="mb-2" id="image100"></img>
       <img src={img19} className="mb-2" id="image100"></img>
       <img src={img20} className="mb-2" id="image100"></img>
-      <img src={img21} className="mb-2" id="image100"></img>
-      <Description text="Ciurul lui Eratostene => vector cu ajutorul căruia știm numerele prime până la n (cu 1 sunt numerele neprime, iar cu 0 numerele prime)
-Complexitate O(n*log(log(n)))"></Description>
     <h6 className="mt-4">Pozele cu explicatii au fost preluate de pe Pbinfo.ro</h6>
     </div>
   );

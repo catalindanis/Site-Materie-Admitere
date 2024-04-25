@@ -2,7 +2,6 @@ import React from "react";
 import Title from "../Components/Title";
 import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
-import img1 from "../Resources/Images/vectori/sume_partiale_matrici.jpg";
 import img2 from "../Resources/Images/vectori/kadane_maxima.jpg";
 import img3 from "../Resources/Images/vectori/kadane_minima.jpg";
 

@@ -11,6 +11,7 @@ import SortariVectori from "../Elements/SortariVectori";
 import CautareBinara from "../Elements/CautareBinara"
 import Interclasari from "../Elements/Interclasari"
 import Secvente from "../Elements/Secvente";
+import MatriciSumePartiale from "../Elements/MatriciSumePartiale";
 
 function Sidebar() {
   return (
@@ -154,6 +155,20 @@ function Sidebar() {
               }}
             >
               Vectori - secvențe
+            </a>
+          </p>
+
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <MatriciSumePartiale></MatriciSumePartiale>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Matrici - sume parțiale
             </a>
           </p>
 
