@@ -13,6 +13,7 @@ import Interclasari from "../Elements/Interclasari"
 import Secvente from "../Elements/Secvente";
 import MatriciSumePartiale from "../Elements/MatriciSumePartiale";
 import VectoriCaracterisitiSiFrecventa from "../Elements/VectoriCaracteristiciSIFrecventa";
+import MatriciPatratice from "../Elements/MatriciPatratice";
 
 function Sidebar() {
   return (
@@ -170,6 +171,20 @@ function Sidebar() {
               }}
             >
               Vectori - caracteristici și de frecvență
+            </a>
+          </p>
+
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <MatriciPatratice></MatriciPatratice>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Matrici pătratice
             </a>
           </p>
 
