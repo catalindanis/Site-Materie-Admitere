@@ -10,6 +10,7 @@ import StergeriSiInserari from "../Elements/StergeriInserariVectori";
 import SortariVectori from "../Elements/SortariVectori";
 import CautareBinara from "../Elements/CautareBinara"
 import Interclasari from "../Elements/Interclasari"
+import Secvente from "../Elements/Secvente";
 
 function Sidebar() {
   return (
@@ -139,6 +140,20 @@ function Sidebar() {
               }}
             >
               Vectori - interclasări
+            </a>
+          </p>
+
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <Secvente></Secvente>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Vectori - secvențe
             </a>
           </p>
 
