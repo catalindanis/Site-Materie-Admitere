@@ -8,12 +8,26 @@ import Divizibilitate from "../Elements/Divizibilitate";
 import BazeDeNumeratie from "../Elements/BazeDeNumeratie";
 import StergeriSiInserari from "../Elements/StergeriInserariVectori";
 import SortariVectori from "../Elements/SortariVectori";
-import CautareBinara from "../Elements/CautareBinara"
-import Interclasari from "../Elements/Interclasari"
+import CautareBinara from "../Elements/CautareBinara";
+import Interclasari from "../Elements/Interclasari";
 import Secvente from "../Elements/Secvente";
 import MatriciSumePartiale from "../Elements/MatriciSumePartiale";
 import VectoriCaracterisitiSiFrecventa from "../Elements/VectoriCaracteristiciSIFrecventa";
 import MatriciPatratice from "../Elements/MatriciPatratice";
+import AritmeticaModulara from "../Elements/AritmeticaModulara";
+import ExponentiereRapida from "../Elements/ExponentiereRapida";
+import DivideEtImpera from "../Elements/DivideEtImpera";
+import Combinatorica from "../Elements/Combinatorica";
+import SiruriDeCaractere from "../Elements/SiruriDeCaractere";
+import OperatiiPeBiti from "../Elements/OperatiiPeBiti";
+import Backtracking from "../Elements/Backtracking";
+import MetodaGreedy from "../Elements/MetodaGreedy";
+import GrafuriNeorientate from "../Elements/GrafuriNeorientate";
+import GrafuriOrientate from "../Elements/GrafuriOrientate";
+import ArboriCuRadacina from "../Elements/ArboriCuRadacina";
+import ProgramareDinamica from "../Elements/ProgramareDinamica";
+import DezvoltareaExponțialaAlSubprogramelorRecursive from "../Elements/DezvoltareaExponțialaAlSubprogramelorRecursive"
+import ComplexitateaAlgoritmilor from "../Elements/ComplexitateaAlgoritmilor"
 
 function Sidebar() {
   return (
@@ -150,10 +164,7 @@ function Sidebar() {
             <a
               onClick={() => {
                 closeSidebar();
-                render(
-                  <Secvente></Secvente>,
-                  document.getElementById("card")
-                );
+                render(<Secvente></Secvente>, document.getElementById("card"));
               }}
             >
               Vectori - secvențe
@@ -201,18 +212,154 @@ function Sidebar() {
               Matrici - sume parțiale
             </a>
           </p>
-
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a X-a</h4>
           <p>
-            <a>test</a>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <DivideEtImpera></DivideEtImpera>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Divide et impera - sortări rapide
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <SiruriDeCaractere></SiruriDeCaractere>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Șiruri de caractere
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <Combinatorica></Combinatorica>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Combinatorică
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <ExponentiereRapida></ExponentiereRapida>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Exponențiere rapidă
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <OperatiiPeBiti></OperatiiPeBiti>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Operații pe biți
+            </a>
           </p>
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Clasa a XI-a</h4>
           <p>
-            <a>test</a>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <Backtracking></Backtracking>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Backtracking
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <MetodaGreedy></MetodaGreedy>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Metoda greedy
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <GrafuriNeorientate></GrafuriNeorientate>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Grafuri neorientate
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <GrafuriOrientate></GrafuriOrientate>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Grafuri orientate
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <ArboriCuRadacina></ArboriCuRadacina>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Arbori cu rădăcină
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <ProgramareDinamica></ProgramareDinamica>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Programare dinamică
+            </a>
           </p>
         </div>
         <div className="row fw-medium">
@@ -228,6 +375,45 @@ function Sidebar() {
               }}
             >
               Proprietăți numere
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <ComplexitateaAlgoritmilor></ComplexitateaAlgoritmilor>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Complexitatea algoritmilor
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <AritmeticaModulara></AritmeticaModulara>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Aritmetică modulară
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <DezvoltareaExponțialaAlSubprogramelorRecursive></DezvoltareaExponțialaAlSubprogramelorRecursive>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Dezvoltarea exponțială al subprogramelor recursive
             </a>
           </p>
         </div>

@@ -29,6 +29,8 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
 -un număr în baza k se divide cu k-1 <=> suma cifrelor numărului este divizibilă cu k-1 (generalizarea divizibilității cu 9 din baza 10)
 -un număr în baza k se divide cu k+1 <=> diferența dintre suma cifrelor de pe poziții pare și suma cifrelor de pe poziții impare este divizibilă cu k+1
 -cmmdc(a, b) * cmmmc(a, b) = a*b
+-algoritmii de cmmdc și de cmmmc pot fi generalizați pentru oricâte numere
+(de ex pentru a, b, c => cmmdc(a, cmmdc(b, c)) )
 "></Description>
     </div>
   );
