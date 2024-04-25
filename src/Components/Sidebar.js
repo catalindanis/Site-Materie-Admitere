@@ -9,6 +9,7 @@ import BazeDeNumeratie from "../Elements/BazeDeNumeratie";
 import StergeriSiInserari from "../Elements/StergeriInserariVectori";
 import SortariVectori from "../Elements/SortariVectori";
 import CautareBinara from "../Elements/CautareBinara"
+import Interclasari from "../Elements/Interclasari"
 
 function Sidebar() {
   return (
@@ -124,6 +125,20 @@ function Sidebar() {
               }}
             >
               Vectori - căutare binară
+            </a>
+          </p>
+
+          <p>
+            <a
+              onClick={() => {
+                closeSidebar();
+                render(
+                  <Interclasari></Interclasari>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Vectori - interclasări
             </a>
           </p>
 
