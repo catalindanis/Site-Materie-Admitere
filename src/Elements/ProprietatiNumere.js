@@ -18,7 +18,7 @@ ex : n = 1230, ogl = 321, ogl(ogl) = 123
 -nr impare => doar divizori impari
 -un număr poate fi scris ca suma de alte nr in 2^(n-1) moduri, dacă nu se ține cont de repetări.
 ex : n = 3 => 2^2 moduri : 1+1+1 = 1+2 = 2+1 = 3 (4 moduri)
--orice pătrat perfect poate fi scris ca sumă de numere impare consecutive pornind de la 1
+-orice pătrat perfect poate fi scris ca sumă de numere impare consecutive pornind de la 1 (ne putem gândi la o matrice pătratică de 1, după la cea de 2, și tot asa... referință din rezolvare concurs ubb 2024 youtube)
 ex 1; 1+3 = 4; 1+3+5 = 9; …
 -un număr are numărul de divizori impari <=> este pătrat perfect (toți divizorii sunt în perechi de câte 2 : (d, n/d) mai puțin rădăcina pătrată care este singură)
 -un număr care are 3 divizori este pătrat perfect de număr prim 
