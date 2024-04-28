@@ -27,8 +27,8 @@ suma = s[dr] - s[st-1]"
 -fiecare element este adăugat la o sumă curentă, și la fiecare pas se verifică dacă suma curentă nu este cumva maximă; dacă la un moment dat, suma curentă ajunge negativă, atunci se resetează suma la 0, deoarece dacă am lăsa suma negativă am porni cu un așa-zis handicap.
 -când vine vorba de găsirea secvenței cu sumă minimă, algoritmul este asemănător, singurele lucruri care se schimbă este că la fiecare pas vom căuta suma minimă, iar suma curentă se resetează dacă ajunge pozitivă"
       ></Description>
-      <img src={img2} className="mb-2" id="image100"></img>
-      <img src={img3} className="mb-2" id="image100"></img>
+      <img src={img2} className="mb-2" id="image75"></img>
+      <img src={img3} className="mb-2" id="image75"></img>
     </div>
   );
 }

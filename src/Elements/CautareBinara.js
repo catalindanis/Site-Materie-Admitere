@@ -31,41 +31,41 @@ function CautareBinara() {
 "
       ></Description>
       <Subtitle text="Verificarea apariției unui element într-un șir ordonat"></Subtitle>
-      <img src={img1} className="mb-2" id="image100"></img>
-      <img src={img2} className="mb-2" id="image100"></img>
+      <img src={img1} className="mb-2" id="image75"></img>
+      <img src={img2} className="mb-2" id="image75"></img>
 
       <Subtitle text="Poziția unui element într-un șir ordonat"></Subtitle>
-      <img src={img3} className="mb-2" id="image100"></img>
-      <img src={img4} className="mb-2" id="image100"></img>
+      <img src={img3} className="mb-2" id="image75"></img>
+      <img src={img4} className="mb-2" id="image75"></img>
 
       <Subtitle text="Poziția celui mai mic element mai mare sau egal cu o valoare într-un șir ordonat"></Subtitle>
-      <img src={img5} className="mb-2" id="image100"></img>
-      <img src={img6} className="mb-2" id="image100"></img>
+      <img src={img5} className="mb-2" id="image75"></img>
+      <img src={img6} className="mb-2" id="image75"></img>
 
       <Subtitle text="Poziția celui mai mare element mai mic sau egal cu o valoare într-un șir ordonat"></Subtitle>
-      <img src={img7} className="mb-2" id="image100"></img>
-      <img src={img8} className="mb-2" id="image100"></img>
+      <img src={img7} className="mb-2" id="image75"></img>
+      <img src={img8} className="mb-2" id="image75"></img>
 
       <Subtitle text="Poziția primei apariții a unui element într-un șir ordonat"></Subtitle>
-      <img src={img9} className="mb-2" id="image100"></img>
-      <img src={img10} className="mb-2" id="image100"></img>
+      <img src={img9} className="mb-2" id="image75"></img>
+      <img src={img10} className="mb-2" id="image75"></img>
 
       <Subtitle text="Poziția ultimei apariții a unui element într-un șir ordonat"></Subtitle>
-      <img src={img11} className="mb-2" id="image100"></img>
-      <img src={img12} className="mb-2" id="image100"></img>
+      <img src={img11} className="mb-2" id="image75"></img>
+      <img src={img12} className="mb-2" id="image75"></img>
 
       <Subtitle text="Numărul de apariții ale unui element într-un șir ordonat"></Subtitle>
-      <img src={img13} className="mb-2" id="image100"></img>
+      <img src={img13} className="mb-2" id="image75"></img>
 
       <Subtitle text="Verificare dacă un număr este pătrat perfect cu ajutorul căutării binare"></Subtitle>
-      <img src={img14} className="mb-2" id="image100"></img>
+      <img src={img14} className="mb-2" id="image75"></img>
 
       <Subtitle text="Determinare rădăcină pătrată cu ajutorul căutării binare"></Subtitle>
-      <img src={img15} className="mb-2" id="image100"></img>
-      <img src={img16} className="mb-2" id="image100"></img>
+      <img src={img15} className="mb-2" id="image75"></img>
+      <img src={img16} className="mb-2" id="image75"></img>
 
       <Subtitle text="Determinarea părții întregi a rădăcinii pătrate cu ajutorul căutării binare"></Subtitle>
-      <img src={img17} className="mb-2" id="image100"></img>
+      <img src={img17} className="mb-2" id="image75"></img>
     </div>
   );
 }

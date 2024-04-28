@@ -9,8 +9,8 @@ function StergeriSiInserari() {
   return (
     <div className="Card">
       <Title text="Vectori - ștergeri și inserări" />
-      <img src={img1} className = "mb-2" id="image100"></img>
-      <img src={img2} className = "mb-2" id="image100"></img>
+      <img src={img1} className = "mb-2" id="image75"></img>
+      <img src={img2} className = "mb-2" id="image75"></img>
     </div>
   );
 }

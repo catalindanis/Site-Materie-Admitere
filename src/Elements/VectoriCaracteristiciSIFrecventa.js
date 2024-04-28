@@ -24,7 +24,7 @@ function VectoriCaracterisitiSiFrecventa() {
 -se poate adaugă și o reținere a valorilor prime, într-un alt vector pentru o accesare mai rapidă, cum s-a făcut în algoritmul de mai jos
 -Complexitate O( n*log( log(n) ) )"
       ></Description>
-      <img src={img1} className="mb-2" id="image100"></img>
+      <img src={img1} className="mb-2" id="image75"></img>
     </div>
   );
 }

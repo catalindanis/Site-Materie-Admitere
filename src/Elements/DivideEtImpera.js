@@ -25,12 +25,12 @@ function DivideEtImpera() {
 -șirul se partiționează în așa fel încât, în dreapta elementului pivot toate elementele vor fi mai mari ca el, îar în stânga vor fi mai mici sau egale cu el; în acest fel, cu siguranță elementul pivot este plasat pe poziția lui finală
 -după aceea se aplică același lucru pe șirul din dreapta poziției unde a fost pus pivot, respectiv pe șirul din stânga poziției unde a fost pus pivotul"
       ></Description>
-      <img src={img1} className="mb-2" id="image100"></img>
-      <img src={img2} className="mb-2" id="image100"></img>
-      <img src={img3} className="mb-2" id="image100"></img>
+      <img src={img1} className="mb-2" id="image75"></img>
+      <img src={img2} className="mb-2" id="image75"></img>
+      <img src={img3} className="mb-2" id="image75"></img>
       <Subtitle text="Merge Sort (sortare prin interclasare)"></Subtitle>
       <Description text="-la fiecare pas, șirul este împărțit în două, sunt sortate ambele jumătăți iar apoi se interclasează cele 2 jumătăți sortate, rezultând în subșirul inițial doar că sortat"></Description>
-      <img src={img4}></img>
+      <img src={img4} className="mb-2" id="image75"></img>
       <Description text="-pentru ambii algoritmi, șirurile a și c sunt declarate global
 -la ambii algoritmi, apelurile inițiale au fost cu parametrii st=1, dr = lungimea șirului"></Description>
     </div>

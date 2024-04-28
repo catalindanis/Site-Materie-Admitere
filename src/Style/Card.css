@@ -19,6 +19,10 @@
     width: 100%;
 }
 
+#image75{
+    width: 75%;
+}
+
 #image50{
     width: 50%;
 }
@@ -28,6 +32,10 @@
 }
 
 @media screen and (max-width: 800px) {
+    #image75{
+        width: 100%;
+    }
+
     #image25{
         width: 50%;
     }

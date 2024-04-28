@@ -26,9 +26,9 @@ function SortariVectori() {
 -complexitatea este O(n^2)
 "
       ></Description>
-      <img src={img1} className="mb-2" id="image100"></img>
-      <img src={img2} className="mb-2" id="image100"></img>
-      <img src={img3} className="mb-2" id="image100"></img>
+      <img src={img1} className="mb-2" id="image75"></img>
+      <img src={img2} className="mb-2" id="image75"></img>
+      <img src={img3} className="mb-2" id="image75"></img>
 
       <Subtitle text="Selection sort (metoda prin selecție)"></Subtitle>
       <Description
@@ -38,9 +38,9 @@ function SortariVectori() {
 -complexitatea este O(n^2)
 "
       ></Description>
-      <img src={img4} className="mb-2" id="image100"></img>
-      <img src={img5} className="mb-2" id="image100"></img>
-      <img src={img6} className="mb-2" id="image100"></img>
+      <img src={img4} className="mb-2" id="image75"></img>
+      <img src={img5} className="mb-2" id="image75"></img>
+      <img src={img6} className="mb-2" id="image75"></img>
 
       <Subtitle text="Insertion sort (metoda prin inserție)"></Subtitle>
       <Description
@@ -50,18 +50,18 @@ function SortariVectori() {
 -complexitatea este O(n^2)
 "
       ></Description>
-      <img src={img7} className="mb-2" id="image100"></img>
-      <img src={img8} className="mb-2" id="image100"></img>
-      <img src={img9} className="mb-2" id="image100"></img>
+      <img src={img7} className="mb-2" id="image75"></img>
+      <img src={img8} className="mb-2" id="image75"></img>
+      <img src={img9} className="mb-2" id="image75"></img>
 
       <Subtitle text="Counting sort (metoda prin numărare)"></Subtitle>
       <Description
         text="-această metodă folosește un vector de frecvență în care va stoca numărul de apariții pentru fiecare valoare din vector
 -prima variantă va face un fel de vector de sume parțiale în care se vor stoca pentru fiecare element câte elemente mai mici sau egale cu el există; astfel, când adăugăm în vectorul rezultat elementele, vom avea direct poziția pe care trebuie pus fiecare element, iar dupa ce îl punem trebuie să actualizăm acest vector de index, deoarece dacă mai dăm de același element mai târziu, trebuie să îl punem pe poziția cu -1 mai puțin decât unde l-am pus prima dată"
       ></Description>
-      <img src={img10} className="mb-2" id="image100"></img>
+      <img src={img10} className="mb-2" id="image75"></img>
       <Description text="-a doua variantă este puțin mai simplu de înțeles deoarece va lua fiecare element care apare în șir cu ajutorul vectorului de frecvență și îl va pune în vectorul rezultat direct în ordine crescătoare"></Description>
-      <img src={img11} className="mb-2" id="image100"></img>
+      <img src={img11} className="mb-2" id="image75"></img>
       <Description text="-complexitatea este O(n + MAX) unde MAX este valoarea maximă din vector"></Description>
     </div>
   );

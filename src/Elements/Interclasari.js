@@ -18,23 +18,23 @@ function Interclasari() {
       ></Description>
 
       <Subtitle text="Interclasarea clasică dintre două șiruri"></Subtitle>
-      <img src={img1} className="mb-2" id="image100"></img>
+      <img src={img1} className="mb-2" id="image75"></img>
 
       <Subtitle text="Reuniune dintre două mulțimi (elemente distincte în fiecare șir)"></Subtitle>
       <Description text="A ∪ B"></Description>
-      <img src={img2} className="mb-2" id="image100"></img>
+      <img src={img2} className="mb-2" id="image75"></img>
 
       <Subtitle text="Intersecție dintre două mulțimi (elemente distincte în fiecare șir)"></Subtitle>
       <Description text="A ∩ B"></Description>
-      <img src={img3} className="mb-2" id="image100"></img>
+      <img src={img3} className="mb-2" id="image75"></img>
 
       <Subtitle text="Diferența dintre două mulțimi (elemente distincte în fiecare șir)"></Subtitle>
       <Description text="A \ B"></Description>
-      <img src={img4} className="mb-2" id="image100"></img>
+      <img src={img4} className="mb-2" id="image75"></img>
 
       <Subtitle text="Diferența simetrică dintre două mulțimi (elemente distincte în fiecare șir)"></Subtitle>
       <Description text="(A \ B) ∪ (B \ A)"></Description>
-      <img src={img5} className="mb-2" id="image100"></img>
+      <img src={img5} className="mb-2" id="image75"></img>
     </div>
   );
 }

@@ -57,13 +57,13 @@ i > j && i+j < n+1
       <img src={img3} className="mb-2" id="image50"></img>
       <Subtitle text="Accesări directe pentru zonele din matrice"></Subtitle>
       <Description text="-zona 1"></Description>
-      <img src={img4} className="mb-2" id="image100"></img>
+      <img src={img4} className="mb-2" id="image75"></img>
       <Description text="-zona 2"></Description>
-      <img src={img5} className="mb-2" id="image100"></img>
+      <img src={img5} className="mb-2" id="image75"></img>
       <Description text="-zona 3"></Description>
-      <img src={img6} className="mb-2" id="image100"></img>
+      <img src={img6} className="mb-2" id="image75"></img>
       <Description text="-zona 4"></Description>
-      <img src={img7} className="mb-2" id="image100"></img>
+      <img src={img7} className="mb-2" id="image75"></img>
     </div>
   );
 }

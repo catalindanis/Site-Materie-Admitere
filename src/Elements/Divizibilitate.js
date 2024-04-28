@@ -45,30 +45,35 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
 (de ex pentru a, b, c => cmmdc(a, cmmdc(b, c)) )"
       />
       <Subtitle text="Algoritmi implementati :"></Subtitle>
-      <img src={img1} className="mb-2" id="image100"></img>
-      <img src={img2} className="mb-2" id="image100"></img>
-      <img src={img3} className="mb-2" id="image100"></img>
-      <img src={img4} className="mb-2" id="image100"></img>
-      <img src={img5} className="mb-2" id="image100"></img>
-      <img src={img6} className="mb-2" id="image100"></img>
-      <img src={img7} className="mb-2" id="image100"></img>
-      <img src={img8} className="mb-2" id="image100"></img>
-      <img src={img9} className="mb-2" id="image100"></img>
-      <img src={img10} className="mb-2" id="image100"></img>
-      <img src={img11} className="mb-2" id="image100"></img>
-      <img src={img12} className="mb-2" id="image100"></img>
+      <img src={img1} className="mb-2" id="image75"></img>
+      <img src={img2} className="mb-2" id="image75"></img>
+      <img src={img3} className="mb-2" id="image75"></img>
+      <img src={img4} className="mb-2" id="image75"></img>
+      <Description text="-dacă mai jos (a == 0 || b == 0) => buclă infinită (dar aici sunt tratate și acele cazuri)"></Description>
+      <img src={img5} className="mb-2" id="image75"></img>
+      <Description text="-dacă mai jos (a == 0 || b == 0) => buclă infinită (dar aici sunt tratate și acele cazuri)"></Description>
+      <img src={img6} className="mb-2" id="image75"></img>
+      <Description text="-dacă mai jos (a == 0 || b == 0) => buclă infinită (dar aici sunt tratate și acele cazuri)"></Description>
+      <img src={img7} className="mb-2" id="image75"></img>
+      <Description text="-cmmmc(a, b) = a * b / cmmdc(a, b)"></Description>
+      <img src={img8} className="mb-2" id="image75"></img>
+      <img src={img9} className="mb-2" id="image75"></img>
+      <img src={img10} className="mb-2" id="image75"></img>
+      <img src={img11} className="mb-2" id="image75"></img>
+      <img src={img12} className="mb-2" id="image75"></img>
       <Description text="Numarul de divizori prin factorizare se calculeaza facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului"></Description>
-      <img src={img13} className="mb-2" id="image100"></img>
+      <img src={img13} className="mb-2" id="image75"></img>
       <Description text="Numarul de divizori impari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2"></Description>
-      <img src={img14} className="mb-2" id="image100"></img>
-      <Description text="Numarul de divizori pari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2 unde nu mai adunam acel +1"></Description>
-      <img src={img15} className="mb-2" id="image100"></img>
-      <img src={img22} className="mb-2" id="image100"></img>
-      <img src={img16} className="mb-2" id="image100"></img>
-      <img src={img17} className="mb-2" id="image100"></img>
-      <img src={img18} className="mb-2" id="image100"></img>
-      <img src={img19} className="mb-2" id="image100"></img>
-      <img src={img20} className="mb-2" id="image100"></img>
+      <img src={img14} className="mb-2" id="image75"></img>
+      <Description text="Numarul de divizori pari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2 unde nu mai adunam acel +1
+-daca numărul este impar => nu are divizori pari"></Description>
+      <img src={img15} className="mb-2" id="image75"></img>
+      <img src={img22} className="mb-2" id="image75"></img>
+      <img src={img16} className="mb-2" id="image75"></img>
+      <img src={img17} className="mb-2" id="image75"></img>
+      <img src={img18} className="mb-2" id="image75"></img>
+      <img src={img19} className="mb-2" id="image75"></img>
+      <img src={img20} className="mb-2" id="image75"></img>
       <h6 className="mt-4">
         Pozele cu explicatii au fost preluate de pe Pbinfo.ro
       </h6>
