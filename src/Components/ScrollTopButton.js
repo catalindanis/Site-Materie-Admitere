@@ -20,6 +20,13 @@ const ScrollTopButton = () => {
     } else {
       setIsVisible(false);
     }
+
+    if(scrollTop > 500)
+      closeSidebar();
+  };
+
+  const closeSidebar = () => {
+    document.getElementById("sidebar").style.transform = "translate(-250px)";
   };
 
   useEffect(() => {

@@ -464,4 +464,5 @@ const toggleSidebar = () => {
 const closeSidebar = () => {
   document.getElementById("sidebar").style.transform = "translate(-250px)";
 };
+
 export default Sidebar;
