@@ -29,6 +29,13 @@ import ProgramareDinamica from "../Elements/ProgramareDinamica";
 import DezvoltareaExponțialaAlSubprogramelorRecursive from "../Elements/DezvoltareaExponțialaAlSubprogramelorRecursive"
 import ComplexitateaAlgoritmilor from "../Elements/ComplexitateaAlgoritmilor"
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+};
+
 function Sidebar() {
   return (
     <div className="container m-0 p-0">
@@ -52,6 +59,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <TipuriDeDate></TipuriDeDate>,
@@ -65,6 +73,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <OperatoriSiExpresii></OperatoriSiExpresii>,
@@ -79,6 +88,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <Divizibilitate></Divizibilitate>,
@@ -93,6 +103,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <BazeDeNumeratie></BazeDeNumeratie>,
@@ -107,6 +118,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <StergeriSiInserari></StergeriSiInserari>,
@@ -121,6 +133,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <SortariVectori></SortariVectori>,
@@ -135,6 +148,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <CautareBinara></CautareBinara>,
@@ -149,6 +163,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <Interclasari></Interclasari>,
@@ -163,6 +178,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(<Secvente></Secvente>, document.getElementById("card"));
               }}
@@ -174,6 +190,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <VectoriCaracterisitiSiFrecventa></VectoriCaracterisitiSiFrecventa>,
@@ -188,6 +205,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <MatriciPatratice></MatriciPatratice>,
@@ -202,6 +220,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <MatriciSumePartiale></MatriciSumePartiale>,
@@ -218,6 +237,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <DivideEtImpera></DivideEtImpera>,
@@ -231,6 +251,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <SiruriDeCaractere></SiruriDeCaractere>,
@@ -244,6 +265,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <Combinatorica></Combinatorica>,
@@ -257,6 +279,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <ExponentiereRapida></ExponentiereRapida>,
@@ -270,6 +293,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <OperatiiPeBiti></OperatiiPeBiti>,
@@ -286,6 +310,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <Backtracking></Backtracking>,
@@ -299,6 +324,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <MetodaGreedy></MetodaGreedy>,
@@ -312,6 +338,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <GrafuriNeorientate></GrafuriNeorientate>,
@@ -325,6 +352,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <GrafuriOrientate></GrafuriOrientate>,
@@ -338,6 +366,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <ArboriCuRadacina></ArboriCuRadacina>,
@@ -351,6 +380,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <ProgramareDinamica></ProgramareDinamica>,
@@ -367,6 +397,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <ProprietatiNumere></ProprietatiNumere>,
@@ -380,6 +411,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <ComplexitateaAlgoritmilor></ComplexitateaAlgoritmilor>,
@@ -393,6 +425,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <AritmeticaModulara></AritmeticaModulara>,
@@ -406,6 +439,7 @@ function Sidebar() {
           <p>
             <a
               onClick={() => {
+                scrollToTop();
                 closeSidebar();
                 render(
                   <DezvoltareaExponțialaAlSubprogramelorRecursive></DezvoltareaExponțialaAlSubprogramelorRecursive>,
