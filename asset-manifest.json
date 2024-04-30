@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Site-Materie-Admitere/static/css/main.1f466435.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.37b1b4ad.js",
+    "main.js": "/Site-Materie-Admitere/static/js/main.b78d73a3.js",
     "static/js/453.8cc0e317.chunk.js": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js",
     "static/media/nr_baza_10.jpg": "/Site-Materie-Admitere/static/media/nr_baza_10.b5172667a34bddbcc9af.jpg",
     "static/media/legendre_neprim_explicatie.jpg": "/Site-Materie-Admitere/static/media/legendre_neprim_explicatie.6b74433aec695429f16b.jpg",
@@ -97,11 +97,11 @@
     "static/media/ex_3.jpg": "/Site-Materie-Admitere/static/media/ex_3.94c01b4e60aa8fcc3fff.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
     "main.1f466435.css.map": "/Site-Materie-Admitere/static/css/main.1f466435.css.map",
-    "main.37b1b4ad.js.map": "/Site-Materie-Admitere/static/js/main.37b1b4ad.js.map",
+    "main.b78d73a3.js.map": "/Site-Materie-Admitere/static/js/main.b78d73a3.js.map",
     "453.8cc0e317.chunk.js.map": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f466435.css",
-    "static/js/main.37b1b4ad.js"
+    "static/js/main.b78d73a3.js"
   ]
 }
