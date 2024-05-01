@@ -9,12 +9,11 @@ function GrafuriNeorientate() {
       <Title text="Grafuri neorientate"></Title>
       <Subtitle text="Terminologie"></Subtitle>
       <Description
-        text="-o pereche ordonată de mulțimi G = (X, U) unde X este o mulțime finită și nevidă de elemente numite vârfuri sau noduri, iar U este o mulțime finită de submulțimi cu două elemente din X numite muchii
+        text="-o pereche ordonată de mulțimi G = (X, U) unde X este o mulțime finită și nevidă de elemente numite vârfuri sau noduri, iar U este o mulțime de perechi neordonate de elemente distincte din X care se numesc muchii
 -la grafurile neorientate, muchiile nu au direcție, adică muchia (a, b) = (b, a)
 -două vârfuri sunt vecine dacă au o muchie care le leagă
 -două vârfuri între care există muchie se numesc adiacente
--două muchii sunt incidente dacă au o extremitate comună; un vârf este incident cu o muchie dacă vârful este extremitate a acelei muchii"
-      ></Description>
+-două muchii sunt incidente dacă au o extremitate comună; un vârf este incident cu o muchie dacă vârful este extremitate a acelei muchii"></Description>
       <Subtitle text="Gradul unui vârf"></Subtitle>
       <Description
         text="-reprezintă numărul de muchii incidente cu un vârf (sau numărul de varfuri adiacente cu vârful)
