@@ -31,7 +31,7 @@ function GrafuriOrientate() {
       <Subtitle text="Subgraf"></Subtitle>
       <Description
         text="-din graful inițial se elimină eventual unele vârfuri (maxim n-1, deoarece nu există graf cu 0 vârfuri)
--numărul de subgrafuri este 2^n - 1  unde n este numărul de noduri ale grafului (suma combinărilor)"
+-numărul de subgrafuri este 2^n - 1  (-1 nu e la putere) (suma combinărilor, din care se scade 1 care înseamnă acea modalitate în care s-ar elimina toate nodurile)"
       ></Description>
 
       <Subtitle text="Graful complet"></Subtitle>
