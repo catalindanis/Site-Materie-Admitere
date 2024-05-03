@@ -12,7 +12,7 @@ function App() {
     <div className="App text-bg-light">
       <header>
         <div className="Title">
-          <p className="titlu">Materie admitere UBB</p>
+          <p className="titlu" onClick={reload} id="allow-pointer-events">Materie admitere UBB</p>
           <h6 id="suggestionMessage">
             Deschide meniul din stanga pentru a accesa materia
           </h6>
@@ -25,6 +25,10 @@ function App() {
         <ScrollTopButton></ScrollTopButton>
     </div>
   );
+}
+
+const reload = () => {
+    document.location.reload();
 }
 
 export default App;

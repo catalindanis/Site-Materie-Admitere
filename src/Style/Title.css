@@ -13,6 +13,13 @@
     padding-bottom: 2px;
 }
 
+#allow-pointer-events{
+    pointer-events: all;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+}
+
 @media screen and (max-width: 600px) {
     .Title{
         top: 75px;
