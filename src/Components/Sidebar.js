@@ -29,6 +29,7 @@ import ProgramareDinamica from "../Elements/ProgramareDinamica";
 import DezvoltareaExponțialaAlSubprogramelorRecursive from "../Elements/DezvoltareaExponțialaAlSubprogramelorRecursive"
 import ComplexitateaAlgoritmilor from "../Elements/ComplexitateaAlgoritmilor"
 import GrileInteresanteGrafuri from "../Elements/GrileInteresanteGrafuri"
+import ArboriBinari from "../Elements/ArboriBinari"
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -376,6 +377,20 @@ function Sidebar() {
               }}
             >
               Arbori cu rădăcină
+            </a>
+          </p>
+          <p>
+            <a
+              onClick={() => {
+                scrollToTop();
+                closeSidebar();
+                render(
+                  <ArboriBinari></ArboriBinari>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Arbori binari
             </a>
           </p>
           <p>
