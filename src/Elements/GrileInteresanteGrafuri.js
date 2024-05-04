@@ -8,7 +8,7 @@ function GrileInteresanteGrafuri() {
   return (
     <div className="Card">
       <Title text="Grile interesante - grafuri"></Title>
-      <img src={img1}></img>
+      <img src={img1} className="mb-2" id="image75"></img>
     </div>
   );
 }
