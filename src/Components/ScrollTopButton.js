@@ -21,8 +21,11 @@ const ScrollTopButton = () => {
       setIsVisible(false);
     }
 
-    if(scrollTop > 500)
-      closeSidebar();
+    // console.log(document.getElementById("sidebar").offsetHeight);
+    // console.log(scrollTop);
+
+    //  if(window.scrollY > document.getElementById("sidebar").offsetHeight)
+    //    closeSidebar();
   };
 
   const closeSidebar = () => {

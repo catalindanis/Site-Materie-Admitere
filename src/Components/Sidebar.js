@@ -28,6 +28,7 @@ import ArboriCuRadacina from "../Elements/ArboriCuRadacina";
 import ProgramareDinamica from "../Elements/ProgramareDinamica";
 import DezvoltareaExponțialaAlSubprogramelorRecursive from "../Elements/DezvoltareaExponțialaAlSubprogramelorRecursive"
 import ComplexitateaAlgoritmilor from "../Elements/ComplexitateaAlgoritmilor"
+import GrileInteresanteGrafuri from "../Elements/GrileInteresanteGrafuri"
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -450,6 +451,23 @@ function Sidebar() {
               Dezvoltarea exponțială al subprogramelor recursive
             </a>
           </p>
+        </div>
+        <div className="row fw-medium">
+          <h4 className="fw-light">Grile interesante</h4>
+            <p>
+              <a
+                onClick={() => {
+                  scrollToTop();
+                  closeSidebar();
+                  render(
+                    <GrileInteresanteGrafuri></GrileInteresanteGrafuri>,
+                    document.getElementById("card")
+                  );
+                }}
+              >
+                Grafuri
+              </a>
+            </p>
         </div>
       </div>
     </div>
