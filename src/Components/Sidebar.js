@@ -28,7 +28,7 @@ import ArboriCuRadacina from "../Elements/ArboriCuRadacina";
 import ProgramareDinamica from "../Elements/ProgramareDinamica";
 import DezvoltareaExponțialaAlSubprogramelorRecursive from "../Elements/DezvoltareaExponțialaAlSubprogramelorRecursive"
 import ComplexitateaAlgoritmilor from "../Elements/ComplexitateaAlgoritmilor"
-import GrileInteresanteGrafuri from "../Elements/GrileInteresanteGrafuri"
+import DiverseInteresanteGrafuri from "../Elements/DiverseInteresanteGrafuri"
 import ArboriBinari from "../Elements/ArboriBinari"
 
 const scrollToTop = () => {
@@ -468,14 +468,14 @@ function Sidebar() {
           </p>
         </div>
         <div className="row fw-medium">
-          <h4 className="fw-light">Grile interesante</h4>
+          <h4 className="fw-light">Chestii interesante</h4>
             <p>
               <a
                 onClick={() => {
                   scrollToTop();
                   closeSidebar();
                   render(
-                    <GrileInteresanteGrafuri></GrileInteresanteGrafuri>,
+                    <DiverseInteresanteGrafuri></DiverseInteresanteGrafuri>,
                     document.getElementById("card")
                   );
                 }}
