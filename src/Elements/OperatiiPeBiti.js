@@ -61,6 +61,11 @@ ex: 13 ^ 151 = 154 (reprezentarea lui 13 este 0000000000001101; reprezentarea lu
 -știind acest lucru, dacă avem un număr care este putere a lui 2, atunci n-1 va avea doar k de 1 consecutivi de la dreapta la stânga, unde k este puterea la care se ridică 2 pentru a obține numărul inițial (ex: 4 = 100 în baza 2, 100 - 1 = 11, calcule făcute în baza 2)
 -de aici => n & (n-1) o să fie 0 <=> n este o putere a lui 2"
       ></Description>
+      <Subtitle text="Numărul de biți de 1 din reprezentarea binară a lui n"></Subtitle>
+      <Description text="-această aplicație am găsit-o în subiectul de admitere la calculatoare de la fmi bucurești din anul 2015 (exercițiul 7)
+-practic, n & 1 va returna 1 dacă ultimul bit a lui n este 1
+-știind acest lucru, putem verifica în acest mod fiecare bit dacă este 1 și să creștem un contor corespunzător
+-pentru a elimina la fiecare pas ultimul bit verificat, folosim șhiftarea la dreapta n >> 1 (impărțirea cu 2^k, k fiind 1 în acest caz)"></Description>
       <h6 className="mt-4">
         Alte aplicații mai pot fi găsite pe Pbinfo.ro, dar sunt destul de
         complexe
