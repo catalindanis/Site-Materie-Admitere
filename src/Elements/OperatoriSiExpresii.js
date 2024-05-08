@@ -2,7 +2,6 @@ import React from "react";
 import Title from "../Components/Title";
 import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
-import prioritateOperatori from "../Resources/Images/operatori_si_expresii/prioritate operatori.jpg"
 
 function OperatoriSiExpresii() {
   return (
@@ -18,7 +17,18 @@ function OperatoriSiExpresii() {
 <Subtitle text="Operatori logici : !, ||, &&"></Subtitle>
 <Subtitle text="Alte tipuri de operatori : +=, -=, *=, /=, %=, ++, --, ? "></Subtitle>
 <Subtitle text="Prioritatea operatorilor :"></Subtitle>
-<img src={prioritateOperatori}></img>
+<Description text="()
+++, -- (preincrementare ++x)
+++, -- (postincrementare x++)
+!
+*, /, %
++, -
+<, >, <=, >=
+==, !=
+&&
+||
++=, -=, *=, %=
+"></Description>
     </div>
   );
 }
