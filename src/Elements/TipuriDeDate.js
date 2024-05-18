@@ -16,7 +16,12 @@ LONG LONG - se scrie pe 64 biți (8 bytes) (din cei 64, unul este folosit pentru
 UNSIGNED LONG LONG - se scrie pe 64 biți (8 bytes) (doar că se folosesc toți cei 64) și ia valori în intervalul [0, 2^64-1]
 DOUBLE - se scrie pe 64 biți (8 bytes)
 FLOAT - se scrie pe 32 biți (4 bytes)
-8 biți = 1 byte (octet)
+-8 biți = 1 byte (octet)
+-tipul de date pe care se efectuează operațiile este dat de tipurile variabilelor
+-5 / 2 = 2 (int / int = int)
+-5 / 2.0 = 2.5 (int / double = double)
+-5 / 2.0 + 5 / 2 = 2.5 + 2 = 4.5 (int / double + int / int = double)
+-5 * 1LL = 5 (int * long long = long long)
       "/>
     </div>
   );
