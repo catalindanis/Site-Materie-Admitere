@@ -63,11 +63,17 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
       <img src={img12} className="mb-2" id="image75"></img>
       <Description text="Numarul de divizori prin factorizare se calculeaza facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului"></Description>
       <img src={img13} className="mb-2" id="image75"></img>
-      <Description text="Numarul de divizori impari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2"></Description>
-      <img src={img14} className="mb-2" id="image75"></img>
       <Description text="Numarul de divizori pari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2 unde nu mai adunam acel +1
 -daca numărul este impar => nu are divizori pari"></Description>
       <img src={img15} className="mb-2" id="image75"></img>
+      <Description text="Numarul de divizori impari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2
+-exponentul lui 2 se ignoră din urmatoare cauză: ne gândim la 4500 = 2^2 * 3^2 * 5^3 atunci:
+nrDiv = (2+1) * (2+1) * (3+1) și nrDivPari = 2 * (2+1) * (3+1) =>
+nrDivImpari = nrDiv - nrDivPari 
+= (2+1) * (2+1) * (3+1) - 2 * (2+1) * (3+1) 
+= (2+1) * (3+1) * [ (2+1) - 2 ] (am dat factor comun parantezele comune)
+= (2+1) * (3+1) * 1 (adică putem ignora de tot exponentul lui 2)"></Description>
+      <img src={img14} className="mb-2" id="image75"></img>
       <img src={img22} className="mb-2" id="image75"></img>
       <img src={img16} className="mb-2" id="image75"></img>
       <img src={img17} className="mb-2" id="image75"></img>
