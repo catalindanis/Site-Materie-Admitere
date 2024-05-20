@@ -26,7 +26,7 @@ function Combinatorica() {
       <Subtitle text="Permutări cu repetiție"></Subtitle>
       <Description text="-tot ca permutările dar printre elementele din care se formează permutarea există repetiții"></Description>
       <img src={img2} className="mb-2" id="image75"></img>
-      <Subtitle text="Permutări fără puncte fixe"></Subtitle>
+      <Subtitle text="Permutări fără puncte fixe (deranjamente)"></Subtitle>
       <Description
         text="-permutări în care P(i) != i oricare ar fi i, unde P(i) este valoarea permutării în i
 -practic, niciunul din elementele din mulțimea inițială nu trebuie să rămână pe aceeași poziție
@@ -49,6 +49,11 @@ function Combinatorica() {
       <Subtitle text="Stirling Bell"></Subtitle>
       <Description text="-numărul de partiții ale unei mulțimi cu n elemente în k submulțimi"></Description>
       <img src={img8} className="mb-2" id="image75"></img>
+      <Subtitle text="Superpermutări"></Subtitle>
+      <Description
+        text="-o superpermutare este un șir care conține toate permutările mulțimii 1, 2, …, n (ex pentru n = 3: 123121321 )
+-lungimea minimă a unei superpermutări este 1! + 2! + … + n!"
+      ></Description>
     </div>
   );
 }

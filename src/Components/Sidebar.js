@@ -29,6 +29,8 @@ import ProgramareDinamica from "../Elements/ProgramareDinamica";
 import DezvoltareaExponțialaAlSubprogramelorRecursive from "../Elements/DezvoltareaExponțialaAlSubprogramelorRecursive"
 import ComplexitateaAlgoritmilor from "../Elements/ComplexitateaAlgoritmilor"
 import DiverseInteresanteGrafuri from "../Elements/DiverseInteresanteGrafuri"
+import DiverseInteresanteMatrici from "../Elements/DiverseInteresanteMatrici"
+import DiverseInteresanteRandom from "../Elements/DiverseInteresanteRandom"
 import ArboriBinari from "../Elements/ArboriBinari"
 
 const scrollToTop = () => {
@@ -481,6 +483,34 @@ function Sidebar() {
                 }}
               >
                 Grafuri
+              </a>
+            </p>
+            <p>
+              <a
+                onClick={() => {
+                  scrollToTop();
+                  closeSidebar();
+                  render(
+                    <DiverseInteresanteMatrici></DiverseInteresanteMatrici>,
+                    document.getElementById("card")
+                  );
+                }}
+              >
+                Matrici
+              </a>
+            </p>
+            <p>
+              <a
+                onClick={() => {
+                  scrollToTop();
+                  closeSidebar();
+                  render(
+                    <DiverseInteresanteRandom></DiverseInteresanteRandom>,
+                    document.getElementById("card")
+                  );
+                }}
+              >
+                Random
               </a>
             </p>
         </div>
