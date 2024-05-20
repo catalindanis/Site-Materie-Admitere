@@ -64,7 +64,10 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
       <Description text="Numarul de divizori prin factorizare se calculeaza facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului"></Description>
       <img src={img13} className="mb-2" id="image75"></img>
       <Description text="Numarul de divizori pari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2 unde nu mai adunam acel +1
--daca numărul este impar => nu are divizori pari"></Description>
+-daca numărul este impar => nu are divizori pari
+-mare atenție la verificarea tuturor cazurilor!!! 
+-dacă cumva nu facem verificarea pentru n impar înainte să intrăm în while, cazul în care n = 1 returnează 1, ceea ce e incorect
+-în schimb, dacă n e impar și strict mai mare decât 1, algoritmul returnează 0 și dacă nu punem verificarea dinaintea structurii while (deoarece când d = 2, p = 0 și cnt *= p transformă cnt în 0)"></Description>
       <img src={img15} className="mb-2" id="image75"></img>
       <Description text="Numarul de divizori impari prin factorizare se calculeaza asemanator, facand produsul tuturor exponentilor +1 din descompunerea in factori primi a numarului mai putin pentru exponentul lui 2
 -exponentul lui 2 se ignoră din urmatoare cauză: ne gândim la 4500 = 2^2 * 3^2 * 5^3 atunci:
