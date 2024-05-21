@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/Site-Materie-Admitere/static/css/main.68078f79.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.c772b9b4.js",
+    "main.js": "/Site-Materie-Admitere/static/js/main.f6166646.js",
     "static/js/453.8cc0e317.chunk.js": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js",
+    "static/media/15.png": "/Site-Materie-Admitere/static/media/15.98ec438b86371a0a8fb8.png",
+    "static/media/13.png": "/Site-Materie-Admitere/static/media/13.b819cf9539b944da4ebf.png",
     "static/media/1.png": "/Site-Materie-Admitere/static/media/1.a7301f6a21bad2ffedea.png",
     "static/media/nr_baza_10.jpg": "/Site-Materie-Admitere/static/media/nr_baza_10.b5172667a34bddbcc9af.jpg",
     "static/media/legendre_neprim_explicatie.jpg": "/Site-Materie-Admitere/static/media/legendre_neprim_explicatie.6b74433aec695429f16b.jpg",
@@ -53,6 +55,7 @@
     "static/media/bubble_sort_rec.jpg": "/Site-Materie-Admitere/static/media/bubble_sort_rec.7d415181cb536ac84622.jpg",
     "static/media/cautare_binara_clasic_rec.jpg": "/Site-Materie-Admitere/static/media/cautare_binara_clasic_rec.907f7f4c203b65f592d4.jpg",
     "static/media/factorizare.jpg": "/Site-Materie-Admitere/static/media/factorizare.3c0cb92971c0ac136c76.jpg",
+    "static/media/14.png": "/Site-Materie-Admitere/static/media/14.1dc525e9b04dcc418a6e.png",
     "static/media/eratostene.jpg": "/Site-Materie-Admitere/static/media/eratostene.6fc580fdb99063e3b73f.jpg",
     "static/media/insertion_sort_rec.jpg": "/Site-Materie-Admitere/static/media/insertion_sort_rec.aed24ea5653afa1e3016.jpg",
     "static/media/selection_sort_lung.jpg": "/Site-Materie-Admitere/static/media/selection_sort_lung.fe6863c85857bba50b45.jpg",
@@ -99,11 +102,11 @@
     "static/media/1.jpg": "/Site-Materie-Admitere/static/media/1.244740ae87610f22c9ce.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
     "main.68078f79.css.map": "/Site-Materie-Admitere/static/css/main.68078f79.css.map",
-    "main.c772b9b4.js.map": "/Site-Materie-Admitere/static/js/main.c772b9b4.js.map",
+    "main.f6166646.js.map": "/Site-Materie-Admitere/static/js/main.f6166646.js.map",
     "453.8cc0e317.chunk.js.map": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68078f79.css",
-    "static/js/main.c772b9b4.js"
+    "static/js/main.f6166646.js"
   ]
 }
