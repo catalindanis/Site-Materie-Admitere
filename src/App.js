@@ -27,6 +27,13 @@ function App() {
   );
 }
 
+window.addEventListener("load", function(){
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
 const reload = () => {
     document.location.reload();
 }
