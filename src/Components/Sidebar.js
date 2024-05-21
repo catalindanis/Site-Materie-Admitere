@@ -31,6 +31,7 @@ import ComplexitateaAlgoritmilor from "../Elements/ComplexitateaAlgoritmilor"
 import DiverseInteresanteGrafuri from "../Elements/DiverseInteresanteGrafuri"
 import DiverseInteresanteMatrici from "../Elements/DiverseInteresanteMatrici"
 import DiverseInteresanteRandom from "../Elements/DiverseInteresanteRandom"
+import DiverseInteresanteGreedy from "../Elements/DiverseInteresanteGreedy"
 import ArboriBinari from "../Elements/ArboriBinari"
 
 const scrollToTop = () => {
@@ -499,6 +500,21 @@ function Sidebar() {
                 Matrici
               </a>
             </p>
+            <p>
+              <a
+                onClick={() => {
+                  scrollToTop();
+                  closeSidebar();
+                  render(
+                    <DiverseInteresanteGreedy></DiverseInteresanteGreedy>,
+                    document.getElementById("card")
+                  );
+                }}
+              >
+                Greedy
+              </a>
+            </p>
+            
             <p>
               <a
                 onClick={() => {
