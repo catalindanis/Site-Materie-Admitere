@@ -427,20 +427,7 @@ function Sidebar() {
               Proprietăți numere
             </a>
           </p>
-          <p>
-            <a
-              onClick={() => {
-                scrollToTop();
-                closeSidebar();
-                render(
-                  <ComplexitateaAlgoritmilor></ComplexitateaAlgoritmilor>,
-                  document.getElementById("card")
-                );
-              }}
-            >
-              Complexitatea algoritmilor
-            </a>
-          </p>
+        
           <p>
             <a
               onClick={() => {
@@ -472,6 +459,20 @@ function Sidebar() {
         </div>
         <div className="row fw-medium">
           <h4 className="fw-light">Chestii interesante</h4>
+          <p>
+            <a
+              onClick={() => {
+                scrollToTop();
+                closeSidebar();
+                render(
+                  <ComplexitateaAlgoritmilor></ComplexitateaAlgoritmilor>,
+                  document.getElementById("card")
+                );
+              }}
+            >
+              Complexitatea algoritmilor
+            </a>
+          </p>
             <p>
               <a
                 onClick={() => {
