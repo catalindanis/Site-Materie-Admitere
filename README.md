@@ -1,3 +1,5 @@
+This project was designed to make my learning process for university entrance exam easier.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
