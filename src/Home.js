@@ -12,7 +12,9 @@ function Home() {
     <div className="App text-bg-light">
       <header>
         <div className="Title">
-          <p className="titlu" onClick={reload} id="allow-pointer-events">Materie admitere UBB</p>
+          <p className="titlu" onClick={reload} id="allow-pointer-events">
+            Materie admitere UBB
+          </p>
           <h6 id="suggestionMessage">
             Deschide meniul din stanga pentru a accesa materia
           </h6>
@@ -22,21 +24,24 @@ function Home() {
         <div id="card"></div>
         <Sidebar></Sidebar>
       </body>
-        <ScrollTopButton></ScrollTopButton>
-        <p className="centered">All rights reserved to Daniș Cătălin | Hosted on github.com | contact: catalindanis14@gmail.com</p>
+      <p className="centered">
+          All rights reserved to Daniș Cătălin | Hosted on github.com | contact:
+          catalindanis14@gmail.com
+        </p>
+      <ScrollTopButton></ScrollTopButton>
     </div>
   );
 }
 
-window.addEventListener("load", function(){
+window.addEventListener("load", function () {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth'
+    behavior: "smooth",
   });
 });
 
 const reload = () => {
-    document.location.reload();
-}
+  document.location.reload();
+};
 
 export default Home;
