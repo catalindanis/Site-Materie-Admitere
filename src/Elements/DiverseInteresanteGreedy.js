@@ -6,6 +6,7 @@ import img1 from "../Resources/Images/grile_interesante/greedy/15.png"
 import img2 from "../Resources/Images/grile_interesante/greedy/14.png"
 import img3 from "../Resources/Images/grile_interesante/greedy/13.png"
 
+
 function DiverseInteresanteGreedy() {
   return (
     <div className="Card">
@@ -17,6 +18,7 @@ function DiverseInteresanteGreedy() {
 să zicem că avem 3 eprubete cu timpii de amestecare în următoarea ordine: 2, 3, 1001; este clar că mai bine luam (2, 3) și așteptăm 5 min, după care luam (5, 1001) și mai așteptăm 1006 min decât să luăm (2, 1001) și apoi (1003, 3) (efect de cascadă)"></Description>
       <img src={img2} className="mb-2" id="image75"></img>
       <img src={img3} className="mb-2" id="image75"></img>
+      
     </div>
   );
 }

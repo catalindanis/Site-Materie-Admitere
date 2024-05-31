@@ -6,36 +6,31 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Sidebar from "./Components/Sidebar";
 import Card from "./Components/Card";
 import ScrollTopButton from "./Components/ScrollTopButton";
+import Home from "./Home";
+import Login from "./Login"
 
 function App() {
+  const handleLogin = (password) => {
+    console.log("Password submitted:", password);
+    // Perform login actions here, such as API call or redirect
+  };
+
   return (
-    <div className="App text-bg-light">
-      <header>
-        <div className="Title">
-          <p className="titlu" onClick={reload} id="allow-pointer-events">Materie admitere UBB</p>
-          <h6 id="suggestionMessage">
-            Deschide meniul din stanga pentru a accesa materia
-          </h6>
-        </div>
-      </header>
-      <body className="text-bg-light" id="body">
-        <div id="card"></div>
-        <Sidebar></Sidebar>
-      </body>
-        <ScrollTopButton></ScrollTopButton>
+    <div className="app">
+      <Login onLogin={handleLogin} />
     </div>
   );
 }
 
-window.addEventListener("load", function(){
+window.addEventListener("load", function () {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth'
+    behavior: "smooth",
   });
 });
 
 const reload = () => {
-    document.location.reload();
-}
+  document.location.reload();
+};
 
 export default App;

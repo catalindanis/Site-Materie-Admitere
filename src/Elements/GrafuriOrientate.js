@@ -12,7 +12,8 @@ function GrafuriOrientate() {
         text="-o pereche ordonată de mulțimi G = (X, U) unde X este o mulțime finită și nevidă de elemente numite vârfuri sau noduri, iar U este o mulțime de perechi ordonate de elemente distincte din X care se numesc arce
 -la grafurile orientate, muchiile au direcție, adică muchia (a, b) != (b, a)
 -două vârfuri între care există muchie se numesc adiacente (nu contează direcția arcului)
--două muchii sunt incidente dacă au o extremitate comună; un vârf este incident cu o muchie dacă vârful este extremitate a acelei muchii (nu contează direcția arcului în niciunul din cazuri)"
+-două muchii sunt incidente dacă au o extremitate comună; un vârf este incident cu o muchie dacă vârful este extremitate a acelei muchii (nu contează direcția arcului în niciunul din cazuri)
+-se mai numește și digraf (graf cu 2 direcții la muchii)"
       ></Description>
       <Subtitle text="Gradul unui vârf"></Subtitle>
       <Description
