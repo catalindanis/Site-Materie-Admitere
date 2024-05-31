@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="app">
-      <Login onLogin={handleLogin} />
+      <Home></Home>
     </div>
   );
 }

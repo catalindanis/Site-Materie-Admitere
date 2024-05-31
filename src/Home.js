@@ -23,6 +23,7 @@ function Home() {
         <Sidebar></Sidebar>
       </body>
         <ScrollTopButton></ScrollTopButton>
+        <p className="centered">All rights reserved to Daniș Cătălin | Hosted on github.com | contact: catalindanis14@gmail.com</p>
     </div>
   );
 }
