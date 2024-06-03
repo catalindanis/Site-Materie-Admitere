@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/Site-Materie-Admitere/static/css/main.0c930d51.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.2178f5fc.js",
+    "main.css": "/Site-Materie-Admitere/static/css/main.d24e6595.css",
+    "main.js": "/Site-Materie-Admitere/static/js/main.ea630d99.js",
     "static/js/453.8cc0e317.chunk.js": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js",
+    "static/media/2.png": "/Site-Materie-Admitere/static/media/2.32e44422b9498d882339.png",
     "static/media/15.png": "/Site-Materie-Admitere/static/media/15.98ec438b86371a0a8fb8.png",
     "static/media/13.png": "/Site-Materie-Admitere/static/media/13.b819cf9539b944da4ebf.png",
     "static/media/1.png": "/Site-Materie-Admitere/static/media/1.a7301f6a21bad2ffedea.png",
-    "static/media/2.png": "/Site-Materie-Admitere/static/media/2.32e44422b9498d882339.png",
     "static/media/nr_baza_10.jpg": "/Site-Materie-Admitere/static/media/nr_baza_10.b5172667a34bddbcc9af.jpg",
     "static/media/legendre_neprim_explicatie.jpg": "/Site-Materie-Admitere/static/media/legendre_neprim_explicatie.6b74433aec695429f16b.jpg",
     "static/media/3.png": "/Site-Materie-Admitere/static/media/3.ed9b1aa3cf6e911f96ac.png",
@@ -106,12 +106,12 @@
     "static/media/ex_3.jpg": "/Site-Materie-Admitere/static/media/ex_3.94c01b4e60aa8fcc3fff.jpg",
     "static/media/1.jpg": "/Site-Materie-Admitere/static/media/1.244740ae87610f22c9ce.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
-    "main.0c930d51.css.map": "/Site-Materie-Admitere/static/css/main.0c930d51.css.map",
-    "main.2178f5fc.js.map": "/Site-Materie-Admitere/static/js/main.2178f5fc.js.map",
+    "main.d24e6595.css.map": "/Site-Materie-Admitere/static/css/main.d24e6595.css.map",
+    "main.ea630d99.js.map": "/Site-Materie-Admitere/static/js/main.ea630d99.js.map",
     "453.8cc0e317.chunk.js.map": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c930d51.css",
-    "static/js/main.2178f5fc.js"
+    "static/css/main.d24e6595.css",
+    "static/js/main.ea630d99.js"
   ]
 }
