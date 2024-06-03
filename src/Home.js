@@ -19,15 +19,19 @@ function Home() {
             Deschide meniul din stanga pentru a accesa materia
           </h6>
         </div>
+        <div id="contactMessage centered" >
+        <p className="fs-6 contact1 fw-lighter">
+          All rights reserved to Daniș Cătălin
+        </p>
+        <p className="fs-6 contact2 fw-lighter">
+          contact: catalindanis14@gmail.com
+        </p>
+        </div>
       </header>
       <body className="text-bg-light" id="body">
         <div id="card"></div>
         <Sidebar></Sidebar>
       </body>
-      <p className="centered">
-          All rights reserved to Daniș Cătălin | Hosted on github.com | contact:
-          catalindanis14@gmail.com
-        </p>
       <ScrollTopButton></ScrollTopButton>
     </div>
   );

@@ -13,6 +13,7 @@ function MetodaGreedy() {
 -la fiecare pas se face alegerea cea mai favorabilă la momentul actual, indiferent dacă la următorii pași ar fi fost mai bună altă alegere"
       ></Description>
       <Subtitle text="Probleme diverse"></Subtitle>
+      <Description text="Vezi Chestii interesante -> Greedy"></Description>
     </div>
   );
 }

@@ -539,6 +539,7 @@ function Sidebar() {
 const toggleSidebar = () => {
   document.getElementById("sidebar").style.transform = "translate(0px)";
   document.getElementById("suggestionMessage").style.visibility = "hidden";
+  document.getElementById("contactMessage centered").style.visibility = "hidden";
 };
 
 const closeSidebar = () => {

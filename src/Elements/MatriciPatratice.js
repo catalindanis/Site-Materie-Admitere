@@ -64,6 +64,9 @@ i > j && i+j < n+1
       <img src={img6} className="mb-2" id="image75"></img>
       <Description text="-zona 4"></Description>
       <img src={img7} className="mb-2" id="image75"></img>
+      <h6 className="mt-4">
+        Unele secvențe de cod sunt preluate din cursul de admitere la UBB de pe Zecelaexamene.ro
+      </h6>
     </div>
   );
 }

@@ -1,5 +1,19 @@
 .centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contact1 {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .contact2 {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
   }
