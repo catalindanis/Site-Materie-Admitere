@@ -12,3 +12,9 @@ p a{
   pointer-events: all;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .resize{
+    font-size: 12px;
+  }
+}
