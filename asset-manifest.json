@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Site-Materie-Admitere/static/css/main.d24e6595.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.328b766b.js",
+    "main.css": "/Site-Materie-Admitere/static/css/main.d98050bb.css",
+    "main.js": "/Site-Materie-Admitere/static/js/main.0cea9c0a.js",
     "static/js/453.8cc0e317.chunk.js": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js",
     "static/media/2.png": "/Site-Materie-Admitere/static/media/2.32e44422b9498d882339.png",
     "static/media/15.png": "/Site-Materie-Admitere/static/media/15.98ec438b86371a0a8fb8.png",
@@ -107,12 +107,12 @@
     "static/media/ex_3.jpg": "/Site-Materie-Admitere/static/media/ex_3.94c01b4e60aa8fcc3fff.jpg",
     "static/media/1.jpg": "/Site-Materie-Admitere/static/media/1.244740ae87610f22c9ce.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
-    "main.d24e6595.css.map": "/Site-Materie-Admitere/static/css/main.d24e6595.css.map",
-    "main.328b766b.js.map": "/Site-Materie-Admitere/static/js/main.328b766b.js.map",
+    "main.d98050bb.css.map": "/Site-Materie-Admitere/static/css/main.d98050bb.css.map",
+    "main.0cea9c0a.js.map": "/Site-Materie-Admitere/static/js/main.0cea9c0a.js.map",
     "453.8cc0e317.chunk.js.map": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d24e6595.css",
-    "static/js/main.328b766b.js"
+    "static/css/main.d98050bb.css",
+    "static/js/main.0cea9c0a.js"
   ]
 }
