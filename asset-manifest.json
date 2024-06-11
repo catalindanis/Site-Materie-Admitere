@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Site-Materie-Admitere/static/css/main.d98050bb.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.0cea9c0a.js",
+    "main.css": "/Site-Materie-Admitere/static/css/main.8195650e.css",
+    "main.js": "/Site-Materie-Admitere/static/js/main.6571342b.js",
     "static/js/453.8cc0e317.chunk.js": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js",
     "static/media/2.png": "/Site-Materie-Admitere/static/media/2.32e44422b9498d882339.png",
     "static/media/15.png": "/Site-Materie-Admitere/static/media/15.98ec438b86371a0a8fb8.png",
@@ -37,6 +37,7 @@
     "static/media/inmultire.jpg": "/Site-Materie-Admitere/static/media/inmultire.6a963bb422e0a6a0ed19.jpg",
     "static/media/diferenta.jpg": "/Site-Materie-Admitere/static/media/diferenta.d99011240d5ce5c5ade6.jpg",
     "static/media/cel_mai_mare_mai_mic_sau_egal_rec.jpg": "/Site-Materie-Admitere/static/media/cel_mai_mare_mai_mic_sau_egal_rec.8ec88d5303a1c4bc017c.jpg",
+    "static/media/6.png": "/Site-Materie-Admitere/static/media/6.106d12dfe615895ce032.png",
     "static/media/suma_div_factorizare.jpg": "/Site-Materie-Admitere/static/media/suma_div_factorizare.5b85ea54902b049c233c.jpg",
     "static/media/cautare_binara_clasic_pozitie_rec.jpg": "/Site-Materie-Admitere/static/media/cautare_binara_clasic_pozitie_rec.b43beb16bc3753162892.jpg",
     "static/media/insertion_sort_lung.jpg": "/Site-Materie-Admitere/static/media/insertion_sort_lung.9f848b3951bcb4aa1cd4.jpg",
@@ -98,6 +99,7 @@
     "static/media/numar_aparitii.jpg": "/Site-Materie-Admitere/static/media/numar_aparitii.db9c274aee6bf19c4b43.jpg",
     "static/media/exp_rapida_1.jpg": "/Site-Materie-Admitere/static/media/exp_rapida_1.9d6dd69edb767e64de12.jpg",
     "static/media/cmmdc_impartiri_rec.jpg": "/Site-Materie-Admitere/static/media/cmmdc_impartiri_rec.6eb2ee7c1d76d0050110.jpg",
+    "static/media/7.png": "/Site-Materie-Admitere/static/media/7.d1013b4ce1069d1f5c45.png",
     "static/media/ex_2.jpg": "/Site-Materie-Admitere/static/media/ex_2.ffd26a070cc8c2887c1e.jpg",
     "static/media/cmmdc_impartiri.jpg": "/Site-Materie-Admitere/static/media/cmmdc_impartiri.01d4fa3fc8d6dc6f1956.jpg",
     "static/media/legendre.jpg": "/Site-Materie-Admitere/static/media/legendre.5181c1c678738910e10a.jpg",
@@ -107,12 +109,12 @@
     "static/media/ex_3.jpg": "/Site-Materie-Admitere/static/media/ex_3.94c01b4e60aa8fcc3fff.jpg",
     "static/media/1.jpg": "/Site-Materie-Admitere/static/media/1.244740ae87610f22c9ce.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
-    "main.d98050bb.css.map": "/Site-Materie-Admitere/static/css/main.d98050bb.css.map",
-    "main.0cea9c0a.js.map": "/Site-Materie-Admitere/static/js/main.0cea9c0a.js.map",
+    "main.8195650e.css.map": "/Site-Materie-Admitere/static/css/main.8195650e.css.map",
+    "main.6571342b.js.map": "/Site-Materie-Admitere/static/js/main.6571342b.js.map",
     "453.8cc0e317.chunk.js.map": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d98050bb.css",
-    "static/js/main.0cea9c0a.js"
+    "static/css/main.8195650e.css",
+    "static/js/main.6571342b.js"
   ]
 }
