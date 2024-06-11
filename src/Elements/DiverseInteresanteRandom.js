@@ -7,6 +7,8 @@ import img2 from "../Resources/Images/grile_interesante/random/09_29_28_Screensh
 import img3 from "../Resources/Images/grile_interesante/random/3.png";
 import img4 from "../Resources/Images/grile_interesante/random/4.png";
 import img5 from "../Resources/Images/grile_interesante/random/5.png";
+import img6 from "../Resources/Images/grile_interesante/random/6.png";
+import img7 from "../Resources/Images/grile_interesante/random/7.png";
 
 function DiverseInteresanteRandom() {
   return (
@@ -39,10 +41,27 @@ function DiverseInteresanteRandom() {
       <Description
         text="-acest algoritm calculează suma celor mai mici multipli comuni a câte două numere consecutive citite
 -ceea ce este interesant este modul în care se calculează acest cmmmc pentru fiecare 2 numere
--explicație după meditație cu paul" //TODO completat aici
+-nu am o explicație exactă, dar ideea e că atunci când pentru cmmdc prin euclid cu scăderi repetate facem o scădere, în paralel facem și o sumă și în final, media celor 2 termeni va fi cmmmc
+-pe exemplul ăsta, efectiv dacă x > y pentru cmmdc se face x -= y iar pentru cmmmc se face u += v (x și u sunt inițial egale)"
+      ></Description>
+      <img src={img6}></img>
+      <Description
+        text="-se dă factor comun, și se observă că răsp e n
+-a nu se uita de coeficienți, care și ei vor adăuga înmulțiri"
+      ></Description>
+      <img src={img7}></img>
+      <Description
+        text="-se folosește matematică
+-un număr n are o astfel de pereche de 3 elemente doar dacă n % 6 == 0
+-elementele vor fi n / 6, n / 3, n / 2 (exită o singură pereche pentru orice n divizibil cu 6)
+-vezi problema #2372 pbinfo"
       ></Description>
       <Title text="Proprietăți interesante"></Title>
-      <Description text="-b este multiplu de a <=> fibonacci(b) este multiplu de fibonacci(a) (fibo0 pe pbinfo)"></Description>
+      <Description
+        text="-b este multiplu de a <=> fibonacci(b) este multiplu de fibonacci(a) (fibo0 pe pbinfo)
+-numărul de termeni dintr-o progresie aritmetică de rație r, cu capetele st și dr este nr_term = (dr - st) / r + 1
+-de asemenea, putem da fact comun rația, și atunci o să avem (1+2+3+...+n) * r"
+      ></Description>
     </div>
   );
 }

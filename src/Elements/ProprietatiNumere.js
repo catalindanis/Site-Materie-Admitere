@@ -31,6 +31,9 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
 -cmmdc(a, b) * cmmmc(a, b) = a*b
 -algoritmii de cmmdc și de cmmmc pot fi generalizați pentru oricâte numere
 (de ex pentru a, b, c => cmmdc(a, cmmdc(b, c)) )
+-b este multiplu de a <=> fibonacci(b) este multiplu de fibonacci(a) (fibo0 pe pbinfo)
+-numărul de termeni dintr-o progresie aritmetică de rație r, cu capetele st și dr este nr_term = (dr - st) / r + 1
+-de asemenea, putem da fact comun rația, și atunci o să avem (1+2+3+...+n) * r
 "></Description>
     </div>
   );

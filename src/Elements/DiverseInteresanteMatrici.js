@@ -3,7 +3,7 @@ import Title from "../Components/Title";
 import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
 import img1 from "../Resources/Images/grile_interesante/matrici/1.png";
-import img2 from "../Resources/Images/grile_interesante/matrici/2.png"
+import img2 from "../Resources/Images/grile_interesante/matrici/2.png";
 
 function DiverseInteresanteMatrici() {
   return (
@@ -18,9 +18,11 @@ function DiverseInteresanteMatrici() {
       ></Description>
       <img src={img2} className="mb-2" id="image75"></img>
       <Description
-        text="-modul în care jocul este cel mai probabil să se termine este dacă plasezi pe o latură, deoarece într-un punct normal poți avea chiar 3 vecini, dar pe o latură o să ai maxim 2 sau chiar 0 dacă ești în colț
--astfel, ca să avem siguranța câștigului trebuie să cucerim cel putin 3 laturi"
+        text="-ca să avem siguranța câștigului trebuie să cucerim cel puțin 3 laturi
+-laturile reprezintă colțuri; odată intrat într-un colț, 100% nu se mai poate ieși
+-3 laturi reprezintă toate colțurile => dacă jucătorul face doar mișcările cele mai bune, atunci are siguranța câștigului"
       ></Description>
+
       <Title text="Proprietăți interesante - Matrici"></Title>
       <Description text="-dacă avem o matrice pătratică cu n linii și n coloane, numărul de elemente din toate zonele matricii vor fi: n*(n-2) + n%2; de aici putem afla numărul de elemente din fiecare zonă în parte, toate zonele având un număr egal de elemente, împărțind la 4 formula de mai sus"></Description>
     </div>

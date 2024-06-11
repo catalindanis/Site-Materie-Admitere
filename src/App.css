@@ -13,6 +13,11 @@ p a{
   cursor: pointer;
 }
 
+.element{
+  border: 4px solid black; 
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 600px) {
   .resize{
     font-size: 12px;
