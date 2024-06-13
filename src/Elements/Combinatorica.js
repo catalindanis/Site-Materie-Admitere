@@ -52,7 +52,8 @@ function Combinatorica() {
       <Subtitle text="Superpermutări"></Subtitle>
       <Description
         text="-o superpermutare este un șir care conține toate permutările mulțimii 1, 2, …, n (ex pentru n = 3: 123121321 )
--lungimea minimă a unei superpermutări este 1! + 2! + … + n!"
+-lungimea minimă a unei superpermutări este 1! + 2! + … + n! (dacă 1 <= n <= 5)
+-pentru n > 5 nu exista o regula"
       ></Description>
     </div>
   );
