@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Site-Materie-Admitere/static/css/main.8195650e.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.29ad8a78.js",
+    "main.css": "/Site-Materie-Admitere/static/css/main.b1495d2e.css",
+    "main.js": "/Site-Materie-Admitere/static/js/main.7f6caf2a.js",
     "static/js/453.8cc0e317.chunk.js": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js",
     "static/media/2.png": "/Site-Materie-Admitere/static/media/2.32e44422b9498d882339.png",
     "static/media/15.png": "/Site-Materie-Admitere/static/media/15.98ec438b86371a0a8fb8.png",
@@ -11,10 +11,12 @@
     "static/media/legendre_neprim_explicatie.jpg": "/Site-Materie-Admitere/static/media/legendre_neprim_explicatie.6b74433aec695429f16b.jpg",
     "static/media/3.png": "/Site-Materie-Admitere/static/media/3.ed9b1aa3cf6e911f96ac.png",
     "static/media/zone.jpg": "/Site-Materie-Admitere/static/media/zone.17c79e0cb07d0f00ff9a.jpg",
+    "static/media/8.png": "/Site-Materie-Admitere/static/media/8.620856f40409a418b1b7.png",
     "static/media/stirling_bell.jpg": "/Site-Materie-Admitere/static/media/stirling_bell.b72400906670777d160e.jpg",
     "static/media/diag_secundara.jpg": "/Site-Materie-Admitere/static/media/diag_secundara.420be43104a78935de26.jpg",
     "static/media/diag principala.jpg": "/Site-Materie-Admitere/static/media/diag principala.328c446b40cfd3f952dd.jpg",
     "static/media/legendre_prim_explicatie.jpg": "/Site-Materie-Admitere/static/media/legendre_prim_explicatie.636fe7ed463207b76e74.jpg",
+    "static/media/10.png": "/Site-Materie-Admitere/static/media/10.285b9660f33ccbd9c48e.png",
     "static/media/counting_sort_1.jpg": "/Site-Materie-Admitere/static/media/counting_sort_1.4e04fce733a8f54cfaee.jpg",
     "static/media/nr_baza_8.jpg": "/Site-Materie-Admitere/static/media/nr_baza_8.8ef884119848ae038e8e.jpg",
     "static/media/merge_sort.jpg": "/Site-Materie-Admitere/static/media/merge_sort.f6f43f05acd0746a143e.jpg",
@@ -66,6 +68,7 @@
     "static/media/insertion_sort_rec.jpg": "/Site-Materie-Admitere/static/media/insertion_sort_rec.aed24ea5653afa1e3016.jpg",
     "static/media/selection_sort_lung.jpg": "/Site-Materie-Admitere/static/media/selection_sort_lung.fe6863c85857bba50b45.jpg",
     "static/media/afisare_div_rec.jpg": "/Site-Materie-Admitere/static/media/afisare_div_rec.261c09a16c09fa21dbda.jpg",
+    "static/media/9.png": "/Site-Materie-Admitere/static/media/9.4405dc3e8baa9c80635e.png",
     "static/media/primalitate.jpg": "/Site-Materie-Admitere/static/media/primalitate.2768df4b39af3bb55302.jpg",
     "static/media/ultima_aparitie.jpg": "/Site-Materie-Admitere/static/media/ultima_aparitie.870139ceac9f43eff6a0.jpg",
     "static/media/alte_formule_combinari.jpg": "/Site-Materie-Admitere/static/media/alte_formule_combinari.e7e8a511de98a17798b8.jpg",
@@ -109,12 +112,12 @@
     "static/media/ex_3.jpg": "/Site-Materie-Admitere/static/media/ex_3.94c01b4e60aa8fcc3fff.jpg",
     "static/media/1.jpg": "/Site-Materie-Admitere/static/media/1.244740ae87610f22c9ce.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
-    "main.8195650e.css.map": "/Site-Materie-Admitere/static/css/main.8195650e.css.map",
-    "main.29ad8a78.js.map": "/Site-Materie-Admitere/static/js/main.29ad8a78.js.map",
+    "main.b1495d2e.css.map": "/Site-Materie-Admitere/static/css/main.b1495d2e.css.map",
+    "main.7f6caf2a.js.map": "/Site-Materie-Admitere/static/js/main.7f6caf2a.js.map",
     "453.8cc0e317.chunk.js.map": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8195650e.css",
-    "static/js/main.29ad8a78.js"
+    "static/css/main.b1495d2e.css",
+    "static/js/main.7f6caf2a.js"
   ]
 }
