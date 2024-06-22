@@ -29,7 +29,7 @@ function SiruriDeCaractere() {
       <Description
         text="-strlen(s) - returnează lungimea șirului fără caracterul nul
 -strcpy(dest, src) - copiază în dest tot conținutul din src (inclusiv caracterul nul) și returnează acest dest; dest != src
--strncpy(dest, src, count) - copiază în dest cel mult count caractere din src (fără caracterul nul); dest != src
+-strncpy(dest, src, count) - copiază în dest cel mult count caractere din src (dacă șirul din care copiezi are lungimea n, atunci daca ii dai la strncpy maxim n+1 caractere o sa copieze si caracterul nul, in rest doar o sa suprascrie caracterele); dest != src
 -strcat(dest, src) - concatenează la dest tot conținutul din src (inclusiv caracterul nul); dest != src
 -strchr(s, ch) - returnează NULL dacă caracterul ch nu apare în s, respectiv adresa primei apariții a lui ch în s dacă apare
 -strstr(s1, s2) - returnează NULL dacă șirul s2 nu apare în șirul s1, respectiv adresa primei apariții a lui s2 în s1
