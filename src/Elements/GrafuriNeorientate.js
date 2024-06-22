@@ -49,7 +49,7 @@ function GrafuriNeorientate() {
       <Description text="-toate vârfurile au același grad"></Description>
       <Subtitle text="Graful bipartit"></Subtitle>
       <Description
-        text="-trebuie să se poată împărți mulțimea vârfurilor în 2 submulțimi disjuncte care să conțină toate vârfurile și în care muchiile să fie doar între vârfuri cu o extremitate într-o mulțime și cu cealaltă extremitate în cealaltă mulțime
+        text="-trebuie să se poată împărți mulțimea vârfurilor în 2 submulțimi disjuncte (disjunct = care nu au elemente comune) care să conțină toate vârfurile și în care muchiile să fie doar între vârfuri cu o extremitate într-o mulțime și cu cealaltă extremitate în cealaltă mulțime
 -graful bipartit complet este un graf bipartit în care orice vârf din prima submulțime este adiacent cu orice vârf din a doua submulțime"
       ></Description>
       <Subtitle text="Lanț"></Subtitle>
