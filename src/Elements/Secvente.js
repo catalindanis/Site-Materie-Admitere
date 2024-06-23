@@ -4,6 +4,7 @@ import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
 import img2 from "../Resources/Images/vectori/kadane_maxima.jpg";
 import img3 from "../Resources/Images/vectori/kadane_minima.jpg";
+import img4 from "../Resources/Images/vectori/smenul_lui_mars.png"
 
 function Secvente() {
   return (
@@ -29,6 +30,15 @@ suma = s[dr] - s[st-1]"
       ></Description>
       <img src={img2} className="mb-2" id="image75"></img>
       <img src={img3} className="mb-2" id="image75"></img>
+
+      <Subtitle text="Șmenul lui Mars (Difference array)"></Subtitle>
+      <Description text="-acesta este un algoritm mai specific, care rezolvă foarte rapid o problemă de genul: asupra unui vector se aplică m operații de tip add(st, dr, val) sau sub(st, dr, val) (adunare/scădere val din toate elem. vect. între indicii st și dr)
+-dacă pentru fiecare operație vom face o parcurgere de la st la dr în care vom aduna val, vom ajunge la o complexitate O(n*m) unde n este lung. șirului
+-astfel, se utilizează un vect. suplimentar, care va deveni sumă parțială tuturor operațiilor efectuate
+-fiecare operație se va rezuma la sp[st] += val și sp[dr+1] -= val (ori se folosește un vect. cu n+1 elemente, ori se verifică să nu accesăm cumva n+1)
+-după citirea și marcarea tututor operațiilor, se va face suma parțială în vect sp, și atunci pe fiecare poziție din sp va fi valoarea care trebuie adunată la elementul de pe poziția corespunzătoare din vectorul inițial
+-codul de mai jos rezolvă problema #1268 pbinfo.ro"></Description>
+    <img src={img4} className="mb-2" id="image50"></img>
     </div>
   );
 }
