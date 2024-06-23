@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Site-Materie-Admitere/static/css/main.b1495d2e.css",
-    "main.js": "/Site-Materie-Admitere/static/js/main.b140efd5.js",
+    "main.js": "/Site-Materie-Admitere/static/js/main.086a620a.js",
     "static/js/453.8cc0e317.chunk.js": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js",
     "static/media/2.png": "/Site-Materie-Admitere/static/media/2.32e44422b9498d882339.png",
     "static/media/15.png": "/Site-Materie-Admitere/static/media/15.98ec438b86371a0a8fb8.png",
@@ -22,6 +22,7 @@
     "static/media/merge_sort.jpg": "/Site-Materie-Admitere/static/media/merge_sort.f6f43f05acd0746a143e.jpg",
     "static/media/aranjamente.jpg": "/Site-Materie-Admitere/static/media/aranjamente.707f7c0f1a6e08d3a5e3.jpg",
     "static/media/legendre_neprim.jpg": "/Site-Materie-Admitere/static/media/legendre_neprim.dfd47e1a08dd5b89ea3a.jpg",
+    "static/media/smenul_lui_mars.png": "/Site-Materie-Admitere/static/media/smenul_lui_mars.ee7bd99a5c13ab71e686.png",
     "static/media/diferenta_simetrica.jpg": "/Site-Materie-Admitere/static/media/diferenta_simetrica.060d23f02c56e289d035.jpg",
     "static/media/factorizare_rec_dubla.jpg": "/Site-Materie-Admitere/static/media/factorizare_rec_dubla.7d7c9f816214536e3ddb.jpg",
     "static/media/reuniune.jpg": "/Site-Materie-Admitere/static/media/reuniune.8f5bfecb4de2920aab57.jpg",
@@ -113,11 +114,11 @@
     "static/media/1.jpg": "/Site-Materie-Admitere/static/media/1.244740ae87610f22c9ce.jpg",
     "index.html": "/Site-Materie-Admitere/index.html",
     "main.b1495d2e.css.map": "/Site-Materie-Admitere/static/css/main.b1495d2e.css.map",
-    "main.b140efd5.js.map": "/Site-Materie-Admitere/static/js/main.b140efd5.js.map",
+    "main.086a620a.js.map": "/Site-Materie-Admitere/static/js/main.086a620a.js.map",
     "453.8cc0e317.chunk.js.map": "/Site-Materie-Admitere/static/js/453.8cc0e317.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1495d2e.css",
-    "static/js/main.b140efd5.js"
+    "static/js/main.086a620a.js"
   ]
 }
