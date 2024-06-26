@@ -23,7 +23,8 @@ function ArboriCuRadacina() {
 -două vârfuri care au același tată se numesc frați
 -lungimea unui lanț de la rădăcina arborelui la un vârf x reprezintă nivelul sau adâncimea vârfului
 -lungimea maximală a unui lanț de la rădăcina arborelui la un vârf x reprezintă înălțimea arborelui
--un subarbore este format dintr-un vârf și toți descendenții acestuia"
+-un subarbore este format dintr-un vârf și toți descendenții acestuia
+-nodul intern reprezintă un nod care nu este frunză (are cel puțin un descendent direct)"
       ></Description>
       <Subtitle text="Vectorul de tați"></Subtitle>
       <Description
