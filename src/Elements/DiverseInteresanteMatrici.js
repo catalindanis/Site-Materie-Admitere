@@ -4,6 +4,7 @@ import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
 import img1 from "../Resources/Images/grile_interesante/matrici/1.png";
 import img2 from "../Resources/Images/grile_interesante/matrici/2.png";
+import img3 from "../Resources/Images/grile_interesante/matrici/3.png";
 
 function DiverseInteresanteMatrici() {
   return (
@@ -22,7 +23,10 @@ function DiverseInteresanteMatrici() {
 -laturile reprezintă colțuri; odată intrat într-un colț, 100% nu se mai poate ieși
 -3 laturi reprezintă toate colțurile => dacă jucătorul face doar mișcările cele mai bune, atunci are siguranța câștigului"
       ></Description>
-
+      <img src={img3} className="mb-2" id="image75"></img>
+      <Description
+        text="-chiar dacă la A nu precizează cum se interschimbă (adică care cu care) nu te interesează acest lucru, ci te interesează că spune bine de unde sunt elementele care sunt interschimbate"
+      ></Description>
       <Title text="Proprietăți interesante - Matrici"></Title>
       <Description text="-dacă avem o matrice pătratică cu n linii și n coloane, numărul de elemente din toate zonele matricii vor fi: n*(n-2) + n%2; de aici putem afla numărul de elemente din fiecare zonă în parte, toate zonele având un număr egal de elemente, împărțind la 4 formula de mai sus"></Description>
     </div>
