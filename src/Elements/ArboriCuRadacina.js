@@ -19,7 +19,7 @@ function ArboriCuRadacina() {
 -rădăcina nu are niciun fel de ascendent
 -descendenții unui vârf sunt vârfurile de sub acesta (dacă reprezentăm prin desen)
 -descendent direct înseamnă descendent care este adiacent cu vârful (copil)
--un vârfuri fără descendenți se numește frunză
+-un vârf fără descendenți se numește frunză
 -două vârfuri care au același tată se numesc frați
 -lungimea unui lanț de la rădăcina arborelui la un vârf x reprezintă nivelul sau adâncimea vârfului
 -lungimea maximală a unui lanț de la rădăcina arborelui la un vârf x reprezintă înălțimea arborelui
