@@ -3,6 +3,9 @@ import Title from "../Components/Title";
 import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
 import img1 from "../Resources/Images/arbori binari/1.jpg";
+import img2 from "../Resources/Images/arbori binari/2.png";
+import img3 from "../Resources/Images/arbori binari/3.png";
+import img4 from "../Resources/Images/arbori binari/4.png";
 
 function ArboriBinari() {
   return (
@@ -16,14 +19,19 @@ function ArboriBinari() {
 -subarborii unui arbore binar vor fi la rândul lor arbori binari"
       ></Description>
       <Subtitle text="Arborele binar strict"></Subtitle>
-      <Description text="-este un arbore binar în care fiecare nod cu excepția celor terminale are exact doi descendenți"></Description>
+      <Description text="-este un arbore binar în care fiecare nod cu excepția celor terminale are exact doi descendenți
+-are un număr impar de noduri n = 2 * k - 1, unde k este nr de noduri terminale"></Description>
+      <img src={img2} className="mb-2" id="image50"></img>
       <Subtitle text="Arborele binar plin"></Subtitle>
-      <Description text="-este un arbore binar în care pe fiecare nivel există număr maxim de noduri"></Description>
+      <Description text="-este un arbore binar în care pe fiecare nivel există număr maxim de noduri
+-are un număr impar de noduri n = 2 * k - 1, unde k este nr de noduri terminale"></Description>
+      <img src={img3} className="mb-2" id="image50"></img>
       <Subtitle text="Arborele binar complet"></Subtitle>
       <Description
         text="-este un arbore binar în care pe fiecare nivel există număr maxim de noduri, eventual mai puțin pe ultimul nivel
 -arborele binar plin este și arbore binar complet"
       ></Description>
+      <img src={img4} className="mb-2" id="image50"></img>
       <Subtitle text="Parcurgerea arborilor binari"></Subtitle>
       <Description
         text="-parcurgerea în inordine - se parcurge mai întâi subarborele stâng, apoi rădăcina, apoi subarborele drept (4 7 2 1 5 3 6)
