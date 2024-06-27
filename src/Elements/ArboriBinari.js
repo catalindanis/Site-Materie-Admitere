@@ -19,12 +19,16 @@ function ArboriBinari() {
 -subarborii unui arbore binar vor fi la rândul lor arbori binari"
       ></Description>
       <Subtitle text="Arborele binar strict"></Subtitle>
-      <Description text="-este un arbore binar în care fiecare nod cu excepția celor terminale are exact doi descendenți
--are un număr impar de noduri n = 2 * k - 1, unde k este nr de noduri terminale"></Description>
+      <Description
+        text="-este un arbore binar în care fiecare nod cu excepția celor terminale are exact doi descendenți
+-are un număr impar de noduri n = 2 * k - 1, unde k este nr de noduri terminale"
+      ></Description>
       <img src={img2} className="mb-2" id="image50"></img>
       <Subtitle text="Arborele binar plin"></Subtitle>
-      <Description text="-este un arbore binar în care pe fiecare nivel există număr maxim de noduri
--are un număr impar de noduri n = 2 * k - 1, unde k este nr de noduri terminale"></Description>
+      <Description
+        text="-este un arbore binar în care pe fiecare nivel există număr maxim de noduri
+-are un număr impar de noduri n = 2 * k - 1, unde k este nr de noduri terminale"
+      ></Description>
       <img src={img3} className="mb-2" id="image50"></img>
       <Subtitle text="Arborele binar complet"></Subtitle>
       <Description
