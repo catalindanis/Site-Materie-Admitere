@@ -28,7 +28,8 @@ function MatriciPatratice() {
         text="-elementele situate pe diagonala principală => i = j
 -elementele situate deasupra diagonalei principale => i < j
 -elementele situate sub diagonala principala => i > j
--simetria față de diag principală : a[i][j] = a[j][i] (pătrățelele roșii)"
+-simetria față de diag principală : a[i][j] = a[j][i] (pătrățelele roșii)
+-distanța de la un element a[i][j] al matricei până la diagonala principală este egală cu abs(i - j)"
       ></Description>
       <img src={img1} className="mb-2" id="image50"></img>
       <Subtitle text="Diagonala secundară"></Subtitle>
@@ -37,7 +38,8 @@ function MatriciPatratice() {
 -elementele situate deasupra diagonalei secundare => i + j < n+1
 -elementele situate sub diagonala secundară => i + j > n+1        
 -simetria față de diag secundară : a[i][j] = a[n-j+1][n-i+1] (pătrățelele roșii)
--dacă avem INDEXARE DE LA 0 => tot ce are +1 se transformă în -1"
+-dacă avem INDEXARE DE LA 0 => tot ce are +1 se transformă în -1
+-distanța de la un element a[i][j] al matricei până la diagonala secundară este egală cu abs(n + 1 - (i + j))"
       ></Description>
       <img src={img2} className="mb-2" id="image50"></img>
 
