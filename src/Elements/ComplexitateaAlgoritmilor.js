@@ -13,7 +13,7 @@ function ComplexitateaAlgoritmilor() {
       <Title text="Proprietăți interesante - Complexitate"></Title>
       <Description text="-suma de pași 1 + 1/2 + 1/3 + 1/4 + ... + 1/n = logn (demonstrație matematică, nu are rost)
 -suma de pași 1 + 1/2 + 1/4 + ... = 2 (se poate demonstra cu limita de la suma asta calculată cu ajutorul progresiei geometrice)
--clasele de complexități permit niște aproximări trase puțin de coadă cum sunt cele de mai jos:
+-clasa de complexitate diferă de complexitatea clasică doar prin permiterea următoarei aproximări:
 O(n!) = O(n^n)"></Description>
       <Title text="Grile interesante - Complexitate"></Title>
       <img src={img1} className="mb-2" id="image75"></img>

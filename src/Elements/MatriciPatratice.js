@@ -4,11 +4,11 @@ import Description from "../Components/Description";
 import Subtitle from "../Components/Subtitle";
 import img1 from "../Resources/Images/matrici/diag principala.jpg";
 import img2 from "../Resources/Images/matrici/diag_secundara.jpg";
-import img3 from "../Resources/Images/matrici/zone.jpg"
-import img4 from "../Resources/Images/matrici/zona1.jpg"
-import img5 from "../Resources/Images/matrici/zona2.jpg"
-import img6 from "../Resources/Images/matrici/zona3.jpg"
-import img7 from "../Resources/Images/matrici/zona4.jpg"
+import img3 from "../Resources/Images/matrici/zone.jpg";
+import img4 from "../Resources/Images/matrici/zona1.jpg";
+import img5 from "../Resources/Images/matrici/zona2.jpg";
+import img6 from "../Resources/Images/matrici/zona3.jpg";
+import img7 from "../Resources/Images/matrici/zona4.jpg";
 
 function MatriciPatratice() {
   return (
@@ -67,7 +67,8 @@ i > j && i+j < n+1
       <Description text="-zona 4"></Description>
       <img src={img7} className="mb-2" id="image75"></img>
       <h6 className="mt-4">
-        Unele secvențe de cod sunt preluate din cursul de admitere la UBB de pe Zecelaexamene.ro
+        Unele secvențe de cod sunt preluate din cursul de admitere la UBB de pe
+        Zecelaexamene.ro
       </h6>
     </div>
   );
