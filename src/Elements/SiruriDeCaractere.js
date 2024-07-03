@@ -14,7 +14,7 @@ function SiruriDeCaractere() {
 -diferența dintre cele 2 este când citim mai multe propoziții una după alta, deoarece cin.getline() elimină ultimul caracter (ENTER) și se poate citi direct următoarea propoziție, în timp ce cin.get() nu elimină acest caracter
 -de aceea, dacă folosim cin.get() și imediat mai folosim odată cin.get() sau cin.getline(), după ce introducem primul set de date pentru primul apel al funcției o să observăm că pentru al doilea apel se va citi direct un șir vid care era defapt ENTER-ul rămas de la primul apel 
 -pentru siguranță folosim doar cin.getline() !
--tot pentru siguranță, înainte să citim orice șir de caractere dăm un ci.get() gol deaorece nu va influența absolut deloc algoritmul, ba dimpotrivă, dacă e cazul chiar va ajuta"
+-tot pentru siguranță, înainte să citim orice șir de caractere dăm un cin.get() gol deaorece nu va influența absolut deloc algoritmul, ba dimpotrivă, dacă e cazul chiar va ajuta"
       ></Description>
       <Subtitle text="Funcții predefinite pentru caractere"></Subtitle>
       <Description

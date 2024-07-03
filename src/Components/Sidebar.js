@@ -454,7 +454,7 @@ function Sidebar() {
                 );
               }}
             >
-              Dezvoltarea exponțială al subprogramelor recursive
+              Dezvoltarea exponțială a subprogramelor recursive
             </a>
           </p>
         </div>
