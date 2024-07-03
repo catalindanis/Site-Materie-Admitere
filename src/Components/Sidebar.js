@@ -33,6 +33,7 @@ import DiverseInteresanteMatrici from "../Elements/DiverseInteresanteMatrici"
 import DiverseInteresanteRandom from "../Elements/DiverseInteresanteRandom"
 import DiverseInteresanteGreedy from "../Elements/DiverseInteresanteGreedy"
 import ArboriBinari from "../Elements/ArboriBinari"
+import DiverseInteresanteBazeNumeratie from "../Elements/DiverseInteresanteBazeNumeratie";
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -528,6 +529,21 @@ function Sidebar() {
                 }}
               >
                 Random
+              </a>
+            </p>
+
+            <p>
+              <a
+                onClick={() => {
+                  scrollToTop();
+                  closeSidebar();
+                  render(
+                    <DiverseInteresanteBazeNumeratie></DiverseInteresanteBazeNumeratie>,
+                    document.getElementById("card")
+                  );
+                }}
+              >
+                Baze de numerație
               </a>
             </p>
         </div>
