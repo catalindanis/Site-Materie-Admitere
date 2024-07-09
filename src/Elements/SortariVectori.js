@@ -20,7 +20,7 @@ function SortariVectori() {
       <Title text="Vectori - sortări" />
       <Subtitle text="Bubble sort (metoda bulelor)"></Subtitle>
       <Description
-        text="-acest algoritm compară la fiecare pas elementul curent cu elementul consecutiv și le interschimbă dacă este cazul
+        text="-acest algoritm compară la fiecare pas elementul curent cu unul din vecinii săi și le interschimbă dacă este cazul
 -la fiecare iterație completă a vectorului, o să se pună pe poziția finală maximul (sau minimul dacă se sortează descrescător) care încă nu se află pe poziția lui finală
 -se poate merge și cu primul for până la n-1 deoarece dacă am dus n-1 elemente la poziția lor finală atunci și cel de-al n-lea element se va afla tot la poziția lui finală
 -complexitatea este O(n^2)
