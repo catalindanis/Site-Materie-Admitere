@@ -14,6 +14,7 @@ import img9 from "../Resources/Images/grile_interesante/random/9.png";
 import img10 from "../Resources/Images/grile_interesante/random/10.png";
 import img11 from "../Resources/Images/grile_interesante/random/11.png";
 import img12 from "../Resources/Images/grile_interesante/random/12.png";
+import img13 from "../Resources/Images/grile_interesante/random/14.png";
 
 function DiverseInteresanteRandom() {
   return (
@@ -80,6 +81,12 @@ function DiverseInteresanteRandom() {
         text="-chiar dacă răspunsul B pare inițial corect, nu este complet deoarece nu precizează ca numerele să fie și distincte
 -astfel, dacă luam exact cum scrie la B, s-ar putea pune de ex și 2 2, pentru că sunt numere naturale nenule ne-consecutive, dar totuși algoritmul nu o să pună numere egale unul după celălalt"
       ></Description>
+
+      <img src={img13} className="mb-2" id="image75"></img>
+      <Description
+        text="-se folosește proprietatea nr_mod = 2 ^ (n-1)"
+      ></Description>
+
       <Title text="Proprietăți interesante"></Title>
       <Description
         text="-b este multiplu de a <=> fibonacci(b) este multiplu de fibonacci(a) (fibo0 pe pbinfo)

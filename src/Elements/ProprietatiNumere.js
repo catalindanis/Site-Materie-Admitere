@@ -16,13 +16,16 @@ n%9 în rest
 ex : n = 1230, ogl = 321, ogl(ogl) = 123
 -nr prim => 2 div (improprii) - 1 și el însuși
 -nr impare => doar divizori impari
--un număr poate fi scris ca suma de alte nr in 2^(n-1) moduri, dacă nu se ține cont de repetări.
-ex : n = 3 => 2^2 moduri : 1+1+1 = 1+2 = 2+1 = 3 (4 moduri)
+-un număr poate fi scris ca suma de alte nr in 2^(n-1) moduri, dacă se ține cont de ordinea elementelor.
+ex : n = 3 => 2^2 moduri : 1+1+1 = 1+2 = 2+1 = 3 (4 moduri) (grila cu proprietatea este pusă la chestii interesante -> random)
 -orice pătrat perfect poate fi scris ca sumă de numere impare consecutive pornind de la 1 (ne putem gândi la o matrice pătratică de 1, după la cea de 2, și tot asa... referință din rezolvare concurs ubb 2024 youtube)
 ex 1; 1+3 = 4; 1+3+5 = 9; …
 -un număr are numărul de divizori impari <=> este pătrat perfect (toți divizorii sunt în perechi de câte 2 : (d, n/d) mai puțin rădăcina pătrată care este singură)
--un număr care are 3 divizori este pătrat perfect de număr prim 
+-un număr care are 3 divizori este pătrat perfect de număr prim (număr de forma p^2, p fiind prim)
+-un număr de forma p^3 (p fiind prim) are 4 divizori: 1, p, p^2, p^3
+-un număr de forma p*q (p și q prime) are 4 divizori: 1, p, q, p*q
 -un număr este pătrat perfect => la descompunerea în factori primi, toți exponenții o să fie pari
+-un număr este perfect dacă este egal cu suma divizorilor săi mai puțin el însuși (ex: 6 = 1 + 2 + 3)
 -orice număr poate fi descompus în produs de factori primi (pt fiecare număr descompunerea e unică)
 -un număr poate fi scris ca sumă de puteri distincte ale lui k => numărul se scrie doar cu cifre de 0 și 1 în baza k
 -orice număr poate fi scris ca sumă de puteri distincte ale lui 2 (din reprezentarea în baza 2 a numerelor)
