@@ -31,9 +31,9 @@ function TipuriDeDate() {
 -exemplul de mai jos, este o transformare din baza 10 în baza 2
 "></Description>
     <img src={img2} className = "mb-2" id="image50"></img>
-    <Subtitle text="Conversii rapdide"></Subtitle>
+    <Subtitle text="Conversii rapide"></Subtitle>
     <Description text="-aceste conversii se pot realiza doar între baze care sunt puteri una față de cealaltă (de exemplu baza 3 și baza 9 deoarece 9 = 3^2)
--dacă se transforma din baza mică în baza mare, se vor organiza cifrele numărului în grupulete de câte k cifre (unde k reprezinta puterea la care se ridică baza mica) și se vor transforma acele grupulețe în cifre din baza mare 
+-dacă se transforma din baza mică în baza mare, se vor organiza cifrele numărului în grupulete de câte k cifre (unde k reprezinta puterea la care se ridică baza mica) și se vor transforma acele grupulețe din baza mică în baza 10 iar acelea vor fi cifrele numărului în baza mare
 -mai jos este un exemplu de conversie rapidă din baza 3 în baza 9
 "></Description>
   <img src={img3} className = "mb-2" id="image50"></img>
