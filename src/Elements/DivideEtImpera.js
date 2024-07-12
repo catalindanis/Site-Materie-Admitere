@@ -31,7 +31,7 @@ function DivideEtImpera() {
       <img src={img3} className="mb-2" id="image75"></img>
       <Subtitle text="Merge Sort (sortare prin interclasare)"></Subtitle>
       <Description text="-la fiecare pas, șirul este împărțit în două, sunt sortate ambele jumătăți iar apoi se interclasează cele 2 jumătăți sortate, rezultând în subșirul inițial doar că sortat
--complexitatea timp aici este mereu O(n*log2n)), dar problema este că ai nevoie de un șir suplimentar pentru a realiza interclasarea care va influența complexitatea spațiu"></Description>
+-complexitatea timp este mereu O(n*log2n)), dar problema este că ai nevoie de un șir suplimentar pentru a realiza interclasarea care va influența complexitatea spațiu"></Description>
       <img src={img4} className="mb-2" id="image75"></img>
       <Description text="-pentru ambii algoritmi, șirurile a și c sunt declarate global
 -la ambii algoritmi, apelurile inițiale au fost cu parametrii st=1, dr = lungimea șirului"></Description>

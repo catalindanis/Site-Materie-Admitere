@@ -42,8 +42,8 @@ function GrafuriNeorientate() {
       <Subtitle text="Graful complet"></Subtitle>
       <Description
         text="-graful în care fiecare vârf este incident cu toate celelalte vârfuri (există muchie între oricare două vârfuri)
-        -un graf neorientat complet are n*(n-1) / 2 muchii (1 + 2 + 3 + … + n-1) (combinări de n luate câte 2)
-        -de aici rezultă că există 2^(n*(n-1) / 2) grafuri neorientate distincte cu n vârfuri (suma combinărilor)"
+-un graf neorientat complet are n*(n-1) / 2 muchii (1 + 2 + 3 + … + n-1) (combinări de n luate câte 2)
+-de aici rezultă că există 2^(n*(n-1) / 2) grafuri neorientate distincte cu n vârfuri (suma combinărilor)"
       ></Description>
       <Subtitle text="Graful regulat"></Subtitle>
       <Description text="-toate vârfurile au același grad"></Description>
