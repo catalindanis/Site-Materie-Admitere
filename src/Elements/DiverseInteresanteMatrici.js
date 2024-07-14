@@ -25,9 +25,9 @@ function DiverseInteresanteMatrici() {
       <img src={img5} className="mb-2" id="image25"></img>
       <Description
         text="-ca să câștigi, trebuie să cucerești cât mai multe colțuri deoarece din colțuri nu se mai poate ieși
--în imaginea alăturată problemei, se exemplifică un caz în care avem cucerite 2 colțuri și făcând cele mai bune mișcări, tot ce facem este să merge până în celălalt colț unde câștigăm
+-în imaginea alăturată problemei, se exemplifică un caz în care avem cucerite 2 colțuri și făcând cele mai bune mișcări, tot ce facem este să mergem până în celălalt colț unde câștigăm
 -în exemplul de față nr de linii putea să fie oricare, deoarece noi rămâneam tot pe primele 2, făcând cele mai bune mișcări
--la fel e și la linii impare sau așa, ideea este doar să le avem cucerite adică să avem prima mișcare realizată pe o coloană sau linie impar (în funcție de caz)
+-la fel e și la linii impare sau așa, ideea este doar să le avem cucerite adică să avem prima mișcare realizată pe o coloană sau linie impar (același lucru se aplică și la linii / coloane pare) (în funcție de caz)
 -dacă n sau m sunt impare și tu pornești de pe indice impar, făcând mișcările cele mai bune câștigi sigur"
       ></Description>
       <img src={img3} className="mb-2" id="image75"></img>

@@ -13,7 +13,8 @@ function GrafuriOrientate() {
 -la grafurile orientate, muchiile au direcție, adică muchia (a, b) != (b, a)
 -două vârfuri între care există muchie se numesc adiacente (nu contează direcția arcului)
 -două muchii sunt incidente dacă au o extremitate comună; un vârf este incident cu o muchie dacă vârful este extremitate a acelei muchii (nu contează direcția arcului în niciunul din cazuri)
--se mai numește și digraf (graf cu 2 direcții la muchii)"
+-se mai numește și digraf (graf cu 2 direcții la muchii)
+-numărul de grafuri orientate distincte cu n vârfuri este 2 ^ ( n*(n-1) ) sau 4 ^ ( n * (n-1) / 2 ) (practic pentru fiecare muchie, avem 4 cazuri: nu există, iese din nod, intră în nod sau și iese și intră)"
       ></Description>
       <Subtitle text="Gradul unui vârf"></Subtitle>
       <Description
