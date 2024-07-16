@@ -26,7 +26,7 @@ function DiverseInteresanteRandom() {
 -același tip de rezolvare funcționează și la problema biliard (#2371)"
       ></Description>
       <img src={img1} className="mb-2" id="image75"></img>
-      <Description text='-formula este: 2^n + n - 1 (nu știu explicația) (vezi "De Brujin")'></Description>
+      <Description text='-formula este: 2^n + n - 1 (secventa de Brujin aciclic) (vezi "de Brujin" la combinatorica)'></Description>
       <img src={img3} className="mb-2" id="image75"></img>
       <Description
         text="-se face o parcurgere pe toate elementele în care se vor compara elementele (1,2) ; (3,4) (adică elementele consecutive dar fără să se repete)

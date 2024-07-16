@@ -10,6 +10,8 @@ import img5 from "../Resources/Images/combinatorica/combinari.jpg";
 import img6 from "../Resources/Images/combinatorica/triunghiul_lui_pascal.jpg";
 import img7 from "../Resources/Images/combinatorica/alte_formule_combinari.jpg";
 import img8 from "../Resources/Images/combinatorica/stirling_bell.jpg";
+import img9 from "../Resources/Images/combinatorica/1.jpg";
+import img10 from "../Resources/Images/combinatorica/2.jpg";
 
 function Combinatorica() {
   return (
@@ -55,6 +57,20 @@ function Combinatorica() {
 -lungimea minimă a unei superpermutări este 1! + 2! + … + n! (dacă 1 <= n <= 5)
 -pentru n > 5 nu exista o regula"
       ></Description>
+      <Subtitle text="Ciclu de Brujin"></Subtitle>
+      <Description text="-dacă avem o mulțime de k elemente iar din această mulțime formăm toate șirurile de lungime n cu elemente doar din mulțime, putem să formăm un șir ciclic care va conține fiecare șir de lungime n exact o dată
+-acest șir se numește ciclu de Brujin și are lungimea egală cu k ^ n
+-mai jos avem un exemplu pentru k = {0, 1} și n = 2
+-prima data avem șirul, după care reprezentarea acestuia pe un cerc, pentru a se vedea mai bine că este ciclic și că luând fiecare 2 elemente consecutive vom obține defapt toate șirurile de lungime 2"></Description>
+      <img src={img9} className="mb-2" id="image25"></img>
+      <Subtitle text="Șir de Brujin aciclic"></Subtitle>
+      <Description text="-funcționează pe același principiu ca și un ciclu de Brujin, doar că aici șirul nu o să mai fie ciclic
+-de asta, lungimea minimă a unui șir de acest tip, care practic conține toate șirurile de lungime n ale unei mulțimi de k elemente va fi k ^ n + n - 1
+-dacă ne uităm la un ciclu de Brujin, vom observa că momentul când se va folosi proprietatea de ciclu este doar atunci când căutăm ultimele n-1 șiruri
+-deoarece nu mai avem aceea proprietate de ciclu, vom adăuga acele n-1 elemente la finalul șirului și astfel nu vom mai avea nevoie ca șirul să fie ciclic, dar tot va conține fiecare șir de n elemente a mulțimii o singură dată (foarte important să nu se repete)
+-pentru o clarificare, exemplul de mai jos este tot pentru k = {0, 1} și n = 2 la fel ca la ciclul de Brujin
+-am făcut aceeași reprezentare și pe cerc, pentru a observa că doar ultimele n-1 (în cazul nostru doar ultima) șiruri nu vor putea fi obținute, iar pentru acestea vom adăuga la finalul șirului elementele"></Description>
+      <img src={img10} className="mb-2" id="image25"></img>
     </div>
   );
 }
