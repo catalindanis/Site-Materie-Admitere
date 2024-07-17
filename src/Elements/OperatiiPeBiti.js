@@ -59,7 +59,8 @@ ex: 13 ^ 151 = 154 (reprezentarea lui 13 este 0000000000001101; reprezentarea lu
       <Description
         text="-un număr care este putere a lui 2 va avea în reprezentarea în baza 2 doar 0 și un 1 pe indexul, luat de la dreapta la stânga, corespunzător puterii lui 2 la care este ridicat (ex: 2^2 = 100)
 -știind acest lucru, dacă avem un număr care este putere a lui 2, atunci n-1 va avea doar k de 1 consecutivi de la dreapta la stânga, unde k este puterea la care se ridică 2 pentru a obține numărul inițial (ex: 4 = 100 în baza 2, 100 - 1 = 11, calcule făcute în baza 2)
--de aici => n & (n-1) o să fie 0 <=> n este o putere a lui 2"
+-de aici => n & (n-1) o să fie 0 <=> n este o putere a lui 2
+-generalizată, operația n & (n-1) va înlocui la fiecare pas ultimul bit 1 cu 0"
       ></Description>
       <Subtitle text="Numărul de biți de 1 din reprezentarea binară a lui n"></Subtitle>
       <Description text="-această aplicație am găsit-o în subiectul de admitere la calculatoare de la fmi bucurești din anul 2015 (exercițiul 7)
