@@ -13,9 +13,9 @@ function DivideEtImpera() {
       <Title text="Divide et impera"></Title>
       <Description
         text="-divide et impera este o metodă de programare care se bazează pe descompunerea unei probleme în 2 jumătăți, se rezolvă fiecare jumătate și apoi se ajunge la răspunsul final
-        -acest procedeu este făcut în mod repetat până când nu se mai poate împărți problema
-        -se folosește de obicei pe tablouri unidimensionale
-        -chiar dacă la prima vedere înjumătățirea problemei te duce cu gândul la complexitate logaritmică, asta nu este adevărat deoarece tot timpul o să se realizeze 2 * (n/2) pași, adică complexitate liniară O(n) (nu este o regulă, deoarece problemele diferă)"
+-acest procedeu este făcut în mod repetat până când nu se mai poate împărți problema
+-se folosește de obicei pe tablouri unidimensionale
+-chiar dacă la prima vedere înjumătățirea problemei te duce cu gândul la complexitate logaritmică, asta nu este adevărat deoarece tot timpul o să se realizeze 2 * (n/2) pași, adică complexitate liniară O(n) (nu este o regulă, deoarece problemele diferă)"
       ></Description>
       <Subtitle text="Sortări rapide"></Subtitle>
       <Description text="-ambii algoritmi folosesc principiul de Divide et Impera"></Description>

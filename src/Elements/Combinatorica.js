@@ -19,7 +19,7 @@ function Combinatorica() {
       <Title text="Combinatorică"></Title>
       <Description
         text="-o mulțime are doar elemente distincte
--produsul cartezian reprezintă perechile ordonate din 2 mulțimi (adică fiecare din prima cu fiecare din a doua, ținând cont și de ordine) 
+-produsul cartezian reprezintă perechile din 2 mulțimi (adică fiecare element din prima cu fiecare din a doua) 
 -numărul de elemente al produsului cartezian este cardA * cardB (regula produsului)"
       ></Description>
       <Subtitle text="Permutări"></Subtitle>
@@ -49,7 +49,7 @@ function Combinatorica() {
       <Subtitle text="Alte formule cu combinări"></Subtitle>
       <img src={img7} className="mb-2" id="image75"></img>
       <Subtitle text="Stirling Bell"></Subtitle>
-      <Description text="-numărul de partiții ale unei mulțimi cu n elemente în k submulțimi"></Description>
+      <Description text="-numărul de moduri în care se poate partiționa o mulțime cu n elemente în k submulțimi disjuncte"></Description>
       <img src={img8} className="mb-2" id="image75"></img>
       <Subtitle text="Superpermutări"></Subtitle>
       <Description

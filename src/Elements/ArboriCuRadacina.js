@@ -9,7 +9,7 @@ function ArboriCuRadacina() {
       <Title text="Arbori cu rădăcină"></Title>
       <Subtitle text="Terminologie"></Subtitle>
       <Description
-        text="-un arbore este un graf conex și aciclic
+        text="-un arbore este un graf neorientat conex și aciclic
 -rădăcina este un vârf special; putem spune că agățăm arborele în rădăcină, iar restul nodurilor cad
 -un arbore cu n vârfuri are n-1 muchii
 -arborele este maximal și minimal cu această proprietate, adică dacă s-ar adăuga sau s-ar scoate o muchie fie ar apărea un ciclu, fie nu ar mai fi conex
@@ -23,7 +23,6 @@ function ArboriCuRadacina() {
 -două vârfuri care au același tată se numesc frați
 -lungimea unui lanț de la rădăcina arborelui la un vârf x reprezintă nivelul sau adâncimea vârfului
 -lungimea maximală a unui lanț de la rădăcina arborelui la un vârf x reprezintă înălțimea arborelui
--un subarbore este format dintr-un vârf și toți descendenții acestuia
 -nodul intern reprezintă un nod care nu este frunză (are cel puțin un descendent direct)"
       ></Description>
       <Subtitle text="Vectorul de tați"></Subtitle>

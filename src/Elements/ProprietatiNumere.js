@@ -7,7 +7,8 @@ function ProprietatiNumere() {
   return (
     <div className="Card">
       <Title text="Proprietăți numere" />
-      <Description text="-numărul de cifre este log10(n) + 1
+      <Description
+        text="-numărul de cifre este log10(n) + 1
 -cifra de control este : 
 0 dacă n = 0 			sau
 9 dacă n = 9k, k întreg 	sau
@@ -35,9 +36,8 @@ ex 1; 1+3 = 4; 1+3+5 = 9; …
 -algoritmii de cmmdc și de cmmmc pot fi generalizați pentru oricâte numere
 (de ex pentru a, b, c => cmmdc(a, cmmdc(b, c)) )
 -b este multiplu de a <=> fibonacci(b) este multiplu de fibonacci(a) (fibo0 pe pbinfo)
--numărul de termeni dintr-o progresie aritmetică de rație r, cu capetele st și dr este nr_term = (dr - st) / r + 1
--de asemenea, putem da fact comun rația, și atunci o să avem (1+2+3+...+n) * r
-"></Description>
+-numărul de termeni dintr-o progresie aritmetică de rație r, cu capetele st și dr este nr_term = (dr - st) / r + 1"
+      ></Description>
     </div>
   );
 }

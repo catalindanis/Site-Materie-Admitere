@@ -73,13 +73,13 @@ function GrafuriOrientate() {
 
       <Subtitle text="Graful hamiltonian"></Subtitle>
       <Description
-        text="-un graf se numește hamiltonian dacă conține un circuit hamiltonian
+        text="-un graf orientat se numește hamiltonian dacă conține un circuit hamiltonian
 -circuitul hamiltonian este un circuit elementar care trece prin toate nodurile grafului"
       ></Description>
 
       <Subtitle text="Graful eulerian"></Subtitle>
       <Description
-        text="-un graf se numește eulerian dacă nu are noduri izolate (este conex, nu tare conex) și conține un circuit eulerian
+        text="-un graf orientat se numește eulerian dacă nu are noduri izolate (este conex, nu tare conex) și conține un circuit eulerian
 -circuitul eulerian este un circuit care trece prin toate arcele grafului
 -un graf orientat conex în care gradul exterior este egal cu gradul interior pentru fiecare vârf este graf eulerian"
       ></Description>

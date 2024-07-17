@@ -91,7 +91,6 @@ function DiverseInteresanteRandom() {
       <Description
         text="-b este multiplu de a <=> fibonacci(b) este multiplu de fibonacci(a) (fibo0 pe pbinfo)
 -numărul de termeni dintr-o progresie aritmetică de rație r, cu capetele st și dr este nr_term = (dr - st) / r + 1
--de asemenea, putem da fact comun rația, și atunci o să avem (1+2+3+...+n) * r
 -un număr natural nenul se numește norocos dacă n^2 se poate scrie ca sumă de n numere naturale nenule consecutive
 -după demonstrația de mai jos, pentru a fi norocos, un număr trebuie să fie impar (orice număr impar e norocos)"
       ></Description>

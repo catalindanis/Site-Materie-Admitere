@@ -17,7 +17,7 @@ function TipuriDeDate() {
       <Description text="-un număr poate fi scris ca sumă de puteri distincte ale lui k => numărul se scrie doar cu cifre de 0 și 1 în baza k
 -orice număr poate fi scris ca sumă de puteri distincte ale lui 2 (din reprezentarea în baza 2 a numerelor)
 -un număr în baza k se divide cu k-1 <=> suma cifrelor numărului este divizibilă cu k-1 (generalizarea divizibilității cu 9 din baza 10)
--un număr în baza k se divide cu k+1 <=> diferența dintre suma cifrelor de pe poziții pare și suma cifrelor de pe poziții impare este divizibilă cu k+1"/>
+-un număr în baza k se divide cu k+1 <=> diferența dintre suma cifrelor de pe poziții pare și suma cifrelor de pe poziții impare este divizibilă cu k+1 (generalizarea divizibilității cu 11 din baza 10)"/>
     <Subtitle text="Transformare din baza b in baza 10"></Subtitle>
     <Description text="-se indexează fiecare cifra a numărului în baza b de la dreapta spre stanga
 -mai apoi, se face suma dintre fiecare cifră a numărului înmulțită cu baza la puterea indexului ei

@@ -12,7 +12,7 @@ function Secvente() {
       <Title text="Secvențe"></Title>
       <Description
         text="-secvențele reprezintă o succesiune de elemente consecutive din șir
--într-un șir de n elemente, avem un total de n*(n-1) / 2 secvențe (n secvențe de lungime 1, n-1 secvențe de lungime 2, n-2 secvențe de lungime 3 … )"
+-într-un șir de n elemente, avem un total de n*(n+1) / 2 secvențe (n secvențe de lungime 1, n-1 secvențe de lungime 2, n-2 secvențe de lungime 3 … )"
       ></Description>
       <Subtitle text="Sume parțiale în vectori"></Subtitle>
       <Description
