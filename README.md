@@ -1,4 +1,6 @@
 This project was designed to make my learning process for university entrance exam easier.
+The site it's like a notebook, where I wrote all the things that I've had to learn while preparing
+for this exam. It also contains a lot of interesting exercises with solve explanation.
 
 # Getting Started with Create React App
 
